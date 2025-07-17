@@ -1,0 +1,3164 @@
+numerator=
+[[0 0 0 0 1]
+ [0 0 0 1 0]
+ [0 0 1 0 0]
+ [0 1 0 0 0]
+ [1 0 0 0 0]],
+denominator=1, is_erdos=True
+numerator=
+[[0 0 0 1 1]
+ [0 0 0 1 1]
+ [0 0 2 0 0]
+ [0 2 0 0 0]
+ [2 0 0 0 0]],
+denominator=2, is_erdos=True
+numerator=
+[[0 0 0 1 1]
+ [0 0 1 0 1]
+ [0 0 1 1 0]
+ [0 2 0 0 0]
+ [2 0 0 0 0]],
+denominator=2, is_erdos=True
+numerator=
+[[0 0 1 2 2]
+ [0 0 2 0 3]
+ [0 0 2 3 0]
+ [0 5 0 0 0]
+ [5 0 0 0 0]],
+denominator=5, is_erdos=True
+numerator=
+[[0 0 1 1 2]
+ [0 0 1 1 2]
+ [0 0 2 2 0]
+ [0 4 0 0 0]
+ [4 0 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[0 0 1 1 1]
+ [0 0 1 1 1]
+ [0 0 1 1 1]
+ [0 3 0 0 0]
+ [3 0 0 0 0]],
+denominator=3, is_erdos=True
+numerator=
+[[0 0 0 1 1]
+ [0 0 0 1 1]
+ [0 1 1 0 0]
+ [0 1 1 0 0]
+ [2 0 0 0 0]],
+denominator=2, is_erdos=True
+numerator=
+[[0 0 1 1 1]
+ [0 1 0 0 2]
+ [0 1 0 2 0]
+ [0 1 2 0 0]
+ [3 0 0 0 0]],
+denominator=3, is_erdos=True
+numerator=
+[[0 0 0 1 1]
+ [0 0 1 0 1]
+ [0 1 0 1 0]
+ [0 1 1 0 0]
+ [2 0 0 0 0]],
+denominator=2, is_erdos=True
+numerator=
+[[ 0  4  0  9 10]
+ [ 0  0 10  0 13]
+ [ 0  9  0 14  0]
+ [ 0 10 13  0  0]
+ [23  0  0  0  0]],
+denominator=23, is_erdos=True
+numerator=
+[[0 1 1 3 3]
+ [0 0 3 0 5]
+ [0 3 0 5 0]
+ [0 4 4 0 0]
+ [8 0 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 0  0  2  4  5]
+ [ 0  2  3  0  6]
+ [ 0  4  0  7  0]
+ [ 0  5  6  0  0]
+ [11  0  0  0  0]],
+denominator=11, is_erdos=True
+numerator=
+[[ 0  2  7 15 19]
+ [ 0  7 12  0 24]
+ [ 0 15  0 28  0]
+ [ 0 19 24  0  0]
+ [43  0  0  0  0]],
+denominator=43, is_erdos=True
+numerator=
+[[0 0 1 1 2]
+ [0 0 1 1 2]
+ [0 2 0 2 0]
+ [0 2 2 0 0]
+ [4 0 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 0  3  6  6 14]
+ [ 0  0  7  7 15]
+ [ 0 13  0 16  0]
+ [ 0 13 16  0  0]
+ [29  0  0  0  0]],
+denominator=29, is_erdos=True
+numerator=
+[[ 0  1  3  3  7]
+ [ 0  1  3  3  7]
+ [ 0  6  0  8  0]
+ [ 0  6  8  0  0]
+ [14  0  0  0  0]],
+denominator=14, is_erdos=True
+numerator=
+[[0 2 0 2 3]
+ [0 0 0 3 4]
+ [0 2 3 2 0]
+ [0 3 4 0 0]
+ [7 0 0 0 0]],
+denominator=7, is_erdos=True
+numerator=
+[[ 0  4  4  5  9]
+ [ 0  0  0  9 13]
+ [ 0  7  7  8  0]
+ [ 0 11 11  0  0]
+ [22  0  0  0  0]],
+denominator=22, is_erdos=True
+numerator=
+[[ 0  0  2  3  5]
+ [ 0  2  0  3  5]
+ [ 0  3  3  4  0]
+ [ 0  5  5  0  0]
+ [10  0  0  0  0]],
+denominator=10, is_erdos=True
+numerator=
+[[ 0  2  3  5  9]
+ [ 0  3  0  6 10]
+ [ 0  5  6  8  0]
+ [ 0  9 10  0  0]
+ [19  0  0  0  0]],
+denominator=19, is_erdos=True
+numerator=
+[[ 0  2  2  5  9]
+ [ 0  2  2  5  9]
+ [ 0  5  5  8  0]
+ [ 0  9  9  0  0]
+ [18  0  0  0  0]],
+denominator=18, is_erdos=True
+numerator=
+[[0 1 1 1 1]
+ [0 1 1 1 1]
+ [0 0 0 2 2]
+ [0 2 2 0 0]
+ [4 0 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 0  0  7  5  5]
+ [ 0  5  0  6  6]
+ [ 0  5  0  6  6]
+ [ 0  7 10  0  0]
+ [17  0  0  0  0]],
+denominator=17, is_erdos=True
+numerator=
+[[0 1 3 2 2]
+ [0 2 0 3 3]
+ [0 2 0 3 3]
+ [0 3 5 0 0]
+ [8 0 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 0  3  3  4  4]
+ [ 0  0  4  5  5]
+ [ 0  4  0  5  5]
+ [ 0  7  7  0  0]
+ [14  0  0  0  0]],
+denominator=14, is_erdos=True
+numerator=
+[[ 0  2  3  4  4]
+ [ 0  2  3  4  4]
+ [ 0  3  0  5  5]
+ [ 0  6  7  0  0]
+ [13  0  0  0  0]],
+denominator=13, is_erdos=True
+numerator=
+[[0 1 1 2 2]
+ [0 1 1 2 2]
+ [0 1 1 2 2]
+ [0 3 3 0 0]
+ [6 0 0 0 0]],
+denominator=6, is_erdos=True
+numerator=
+[[0 0 1 1 1]
+ [0 1 0 1 1]
+ [0 1 1 0 1]
+ [0 1 1 1 0]
+ [3 0 0 0 0]],
+denominator=3, is_erdos=True
+numerator=
+[[ 0  2  3  3  3]
+ [ 0  3  0  4  4]
+ [ 0  3  4  0  4]
+ [ 0  3  4  4  0]
+ [11  0  0  0  0]],
+denominator=11, is_erdos=True
+numerator=
+[[ 0  2  2  3  3]
+ [ 0  2  2  3  3]
+ [ 0  3  3  0  4]
+ [ 0  3  3  4  0]
+ [10  0  0  0  0]],
+denominator=10, is_erdos=True
+numerator=
+[[0 2 2 2 3]
+ [0 2 2 2 3]
+ [0 2 2 2 3]
+ [0 3 3 3 0]
+ [9 0 0 0 0]],
+denominator=9, is_erdos=True
+numerator=
+[[0 1 1 1 1]
+ [0 1 1 1 1]
+ [0 1 1 1 1]
+ [0 1 1 1 1]
+ [4 0 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[0 0 0 1 1]
+ [0 0 1 0 1]
+ [0 0 1 1 0]
+ [1 1 0 0 0]
+ [1 1 0 0 0]],
+denominator=2, is_erdos=True
+numerator=
+[[0 0 2 4 4]
+ [0 0 4 0 6]
+ [0 0 4 6 0]
+ [5 5 0 0 0]
+ [5 5 0 0 0]],
+denominator=10, is_erdos=True
+numerator=
+[[0 0 1 1 2]
+ [0 0 1 1 2]
+ [0 0 2 2 0]
+ [2 2 0 0 0]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[0 0 2 2 2]
+ [0 0 2 2 2]
+ [0 0 2 2 2]
+ [3 3 0 0 0]
+ [3 3 0 0 0]],
+denominator=6, is_erdos=True
+numerator=
+[[0 0 0 1 1]
+ [0 0 1 0 1]
+ [0 1 0 1 0]
+ [1 0 1 0 0]
+ [1 1 0 0 0]],
+denominator=2, is_erdos=True
+numerator=
+[[1 0 0 3 3]
+ [0 0 3 0 4]
+ [0 3 0 4 0]
+ [3 0 4 0 0]
+ [3 4 0 0 0]],
+denominator=7, is_erdos=True
+numerator=
+[[ 0  5  0 12 14]
+ [ 0  0 14  0 17]
+ [ 0 12  0 19  0]
+ [14  0 17  0  0]
+ [17 14  0  0  0]],
+denominator=31, is_erdos=True
+numerator=
+[[ 4  5  0 16 18]
+ [ 0  0 18  0 25]
+ [ 0 16  0 27  0]
+ [18  0 25  0  0]
+ [21 22  0  0  0]],
+denominator=43, is_erdos=True
+numerator=
+[[0 1 1 3 3]
+ [0 0 3 0 5]
+ [0 3 0 5 0]
+ [4 0 4 0 0]
+ [4 4 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 1  2  2  7  7]
+ [ 0  0  7  0 12]
+ [ 0  7  0 12  0]
+ [ 9  0 10  0  0]
+ [ 9 10  0  0  0]],
+denominator=19, is_erdos=True
+numerator=
+[[0 1 0 3 4]
+ [1 0 3 0 4]
+ [0 3 0 5 0]
+ [3 0 5 0 0]
+ [4 4 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 1  2  0  7  9]
+ [ 2  0  7  0 10]
+ [ 0  7  0 12  0]
+ [ 7  0 12  0  0]
+ [ 9 10  0  0  0]],
+denominator=19, is_erdos=True
+numerator=
+[[ 0  0  5 13 14]
+ [ 5  0  9  0 18]
+ [ 0 13  0 19  0]
+ [14  0 18  0  0]
+ [13 19  0  0  0]],
+denominator=32, is_erdos=True
+numerator=
+[[ 1  0 10 27 29]
+ [10  0 19  0 38]
+ [ 0 27  0 40  0]
+ [29  0 38  0  0]
+ [27 40  0  0  0]],
+denominator=67, is_erdos=True
+numerator=
+[[1 0 0 3 4]
+ [0 1 3 0 4]
+ [0 3 0 5 0]
+ [3 0 5 0 0]
+ [4 4 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 8  5  0 28 38]
+ [ 0  8 30  0 41]
+ [ 0 28  0 51  0]
+ [30  0 49  0  0]
+ [41 38  0  0  0]],
+denominator=79, is_erdos=True
+numerator=
+[[ 0  0 10 19 24]
+ [ 0  9 15  0 29]
+ [ 0 19  0 34  0]
+ [25  0 28  0  0]
+ [28 25  0  0  0]],
+denominator=53, is_erdos=True
+numerator=
+[[ 14   0  45  96 122]
+ [  0  44  78   0 155]
+ [  0  96   0 181   0]
+ [123   0 154   0   0]
+ [140 137   0   0   0]],
+denominator=277, is_erdos=True
+numerator=
+[[  0   8  38  75  96]
+ [  0  33  63   0 121]
+ [  0  75   0 142   0]
+ [101   0 116   0   0]
+ [116 101   0   0   0]],
+denominator=217, is_erdos=True
+numerator=
+[[ 23  11  81 175 224]
+ [  0  77 147   0 290]
+ [  0 175   0 339   0]
+ [228   0 286   0   0]
+ [263 251   0   0   0]],
+denominator=514, is_erdos=True
+numerator=
+[[1 1 0 5 7]
+ [1 1 5 0 7]
+ [0 5 0 9 0]
+ [5 0 9 0 0]
+ [7 7 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[  0   0  46  91 120]
+ [ 24  33  63   0 137]
+ [  0  91   0 166   0]
+ [109   0 148   0   0]
+ [124 133   0   0   0]],
+denominator=257, is_erdos=True
+numerator=
+[[  7   0  93 189 249]
+ [ 47  69 133   0 289]
+ [  0 189   0 349   0]
+ [226   0 312   0   0]
+ [258 280   0   0   0]],
+denominator=538, is_erdos=True
+numerator=
+[[ 0  4 22 45 60]
+ [12 15 33  0 71]
+ [ 0 45  0 86  0]
+ [55  0 76  0  0]
+ [64 67  0  0  0]],
+denominator=131, is_erdos=True
+numerator=
+[[  4  29 165 340 453]
+ [ 89 114 250   0 538]
+ [  0 340   0 651   0]
+ [415   0 576   0   0]
+ [483 508   0   0   0]],
+denominator=991, is_erdos=True
+numerator=
+[[0 0 1 1 2]
+ [0 0 1 1 2]
+ [0 2 0 2 0]
+ [2 0 2 0 0]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 21   0  48  51 113]
+ [  0   0  55  58 120]
+ [  0 109   0 124   0]
+ [103   0 130   0   0]
+ [109 124   0   0   0]],
+denominator=233, is_erdos=True
+numerator=
+[[ 3  3  9  9 22]
+ [ 0  0 11 11 24]
+ [ 0 20  0 26  0]
+ [20  0 26  0  0]
+ [23 23  0  0  0]],
+denominator=46, is_erdos=True
+numerator=
+[[ 7  0 25 27 59]
+ [ 7  0 25 27 59]
+ [ 0 54  0 64  0]
+ [50  0 68  0  0]
+ [54 64  0  0  0]],
+denominator=118, is_erdos=True
+numerator=
+[[0 1 3 3 7]
+ [1 0 3 3 7]
+ [0 6 0 8 0]
+ [6 0 8 0 0]
+ [7 7 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[ 43  68 224 229 547]
+ [ 60   0 241 246 564]
+ [  0 475   0 636   0]
+ [465   0 646   0   0]
+ [543 568   0   0   0]],
+denominator=1111, is_erdos=True
+numerator=
+[[ 1  1  5  5 12]
+ [ 1  1  5  5 12]
+ [ 0 10  0 14  0]
+ [10  0 14  0  0]
+ [12 12  0  0  0]],
+denominator=24, is_erdos=True
+numerator=
+[[ 0  0  8  5  9]
+ [ 0  0  0  9 13]
+ [ 5  9  0  8  0]
+ [ 8  0 14  0  0]
+ [ 9 13  0  0  0]],
+denominator=22, is_erdos=True
+numerator=
+[[ 2  0 18 11 21]
+ [ 0  0  0 21 31]
+ [11 21  0 20  0]
+ [18  0 34  0  0]
+ [21 31  0  0  0]],
+denominator=52, is_erdos=True
+numerator=
+[[ 0  0  8 11 19]
+ [ 0  0  8 11 19]
+ [ 7 15  0 16  0]
+ [16  0 22  0  0]
+ [15 23  0  0  0]],
+denominator=38, is_erdos=True
+numerator=
+[[  6   0  54  75 133]
+ [  0   0  56  77 135]
+ [ 47 105   0 116   0]
+ [110   0 158   0   0]
+ [105 163   0   0   0]],
+denominator=268, is_erdos=True
+numerator=
+[[ 1  0 13 18 32]
+ [ 1  0 13 18 32]
+ [11 25  0 28  0]
+ [26  0 38  0  0]
+ [25 39  0  0  0]],
+denominator=64, is_erdos=True
+numerator=
+[[0 0 0 2 2]
+ [0 1 1 0 2]
+ [0 1 1 2 0]
+ [2 0 2 0 0]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[1 0 0 6 6]
+ [0 3 3 0 7]
+ [0 3 3 7 0]
+ [6 0 7 0 0]
+ [6 7 0 0 0]],
+denominator=13, is_erdos=True
+numerator=
+[[ 0  5  0 22 22]
+ [ 0 10 12  0 27]
+ [ 0 10 12 27  0]
+ [24  0 25  0  0]
+ [25 24  0  0  0]],
+denominator=49, is_erdos=True
+numerator=
+[[ 3  5  0 28 28]
+ [ 0 13 15  0 36]
+ [ 0 13 15 36  0]
+ [30  0 34  0  0]
+ [31 33  0  0  0]],
+denominator=64, is_erdos=True
+numerator=
+[[0 1 1 6 6]
+ [0 3 3 0 8]
+ [0 3 3 8 0]
+ [7 0 7 0 0]
+ [7 7 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[ 1  2  2 14 14]
+ [ 0  7  7  0 19]
+ [ 0  7  7 19  0]
+ [16  0 17  0  0]
+ [16 17  0  0  0]],
+denominator=33, is_erdos=True
+numerator=
+[[ 0  5  0 24 25]
+ [ 5  9 11  0 29]
+ [ 0 11 13 30  0]
+ [24  0 30  0  0]
+ [25 29  0  0  0]],
+denominator=54, is_erdos=True
+numerator=
+[[ 1 10  0 50 52]
+ [10 19 23  0 61]
+ [ 0 23 27 63  0]
+ [50  0 63  0  0]
+ [52 61  0  0  0]],
+denominator=113, is_erdos=True
+numerator=
+[[ 8  0  0 11 15]
+ [ 0  0  0 15 19]
+ [ 0 13 13  8  0]
+ [13  0 21  0  0]
+ [13 21  0  0  0]],
+denominator=34, is_erdos=True
+numerator=
+[[ 0 24  0 25 37]
+ [ 0  0  0 37 49]
+ [ 0 23 39 24  0]
+ [39  0 47  0  0]
+ [47 39  0  0  0]],
+denominator=86, is_erdos=True
+numerator=
+[[16 24  0 31 51]
+ [ 0  0  0 51 71]
+ [ 0 33 49 40  0]
+ [49  0 73  0  0]
+ [57 65  0  0  0]],
+denominator=122, is_erdos=True
+numerator=
+[[ 0  4  4  5  9]
+ [ 0  0  0  9 13]
+ [ 0  7  7  8  0]
+ [11  0 11  0  0]
+ [11 11  0  0  0]],
+denominator=22, is_erdos=True
+numerator=
+[[ 8 16 16 23 43]
+ [ 0  0  0 43 63]
+ [ 0 33 33 40  0]
+ [49  0 57  0  0]
+ [49 57  0  0  0]],
+denominator=106, is_erdos=True
+numerator=
+[[2 0 0 5 7]
+ [2 0 0 5 7]
+ [0 5 5 4 0]
+ [5 0 9 0 0]
+ [5 9 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[ 0 30  0 45 71]
+ [22  0  0 49 75]
+ [ 0 37 57 52  0]
+ [57  0 89  0  0]
+ [67 79  0  0  0]],
+denominator=146, is_erdos=True
+numerator=
+[[ 4 12  0 19 31]
+ [ 8  0  0 23 35]
+ [ 0 17 25 24  0]
+ [25  0 41  0  0]
+ [29 37  0  0  0]],
+denominator=66, is_erdos=True
+numerator=
+[[ 0 20 20 35 63]
+ [16  0  0 47 75]
+ [ 0 41 41 56  0]
+ [61  0 77  0  0]
+ [61 77  0  0  0]],
+denominator=138, is_erdos=True
+numerator=
+[[ 1  9  9 16 29]
+ [ 7  0  0 22 35]
+ [ 0 19 19 26  0]
+ [28  0 36  0  0]
+ [28 36  0  0  0]],
+denominator=64, is_erdos=True
+numerator=
+[[ 0  6  0 11 17]
+ [ 0  6  0 11 17]
+ [ 0  7 15 12  0]
+ [15  0 19  0  0]
+ [19 15  0  0  0]],
+denominator=34, is_erdos=True
+numerator=
+[[ 60  68   0 163 271]
+ [  0  88   0 183 291]
+ [  0 121 225 216   0]
+ [225   0 337   0   0]
+ [277 285   0   0   0]],
+denominator=562, is_erdos=True
+numerator=
+[[0 0 2 3 5]
+ [0 2 0 3 5]
+ [0 3 3 4 0]
+ [5 0 5 0 0]
+ [5 5 0 0 0]],
+denominator=10, is_erdos=True
+numerator=
+[[ 52   0 108 187 327]
+ [  0 120   0 207 347]
+ [  0 193 201 280   0]
+ [309   0 365   0   0]
+ [313 361   0   0   0]],
+denominator=674, is_erdos=True
+numerator=
+[[  0  52  84 135 243]
+ [  0  80   0 163 271]
+ [  0 133 165 216   0]
+ [249   0 265   0   0]
+ [265 249   0   0   0]],
+denominator=514, is_erdos=True
+numerator=
+[[ 17  25  43  77 142]
+ [  0  45   0  97 162]
+ [  0  78  96 130   0]
+ [139   0 165   0   0]
+ [148 156   0   0   0]],
+denominator=304, is_erdos=True
+numerator=
+[[10 18  0 43 71]
+ [10 18  0 43 71]
+ [ 0 31 55 56  0]
+ [55  0 87  0  0]
+ [67 75  0  0  0]],
+denominator=142, is_erdos=True
+numerator=
+[[ 2  0  6 11 19]
+ [ 2  6  0 11 19]
+ [ 0 11 11 16  0]
+ [17  0 21  0  0]
+ [17 21  0  0  0]],
+denominator=38, is_erdos=True
+numerator=
+[[ 0 16 24 45 81]
+ [12 20  0 49 85]
+ [ 0 43 51 72  0]
+ [75  0 91  0  0]
+ [79 87  0  0  0]],
+denominator=166, is_erdos=True
+numerator=
+[[  64  216  336  649 1181]
+ [ 148  300    0  733 1265]
+ [   0  631  751 1064    0]
+ [1087    0 1359    0    0]
+ [1147 1299    0    0    0]],
+denominator=2446, is_erdos=True
+numerator=
+[[0 2 2 5 9]
+ [0 2 2 5 9]
+ [0 5 5 8 0]
+ [9 0 9 0 0]
+ [9 9 0 0 0]],
+denominator=18, is_erdos=True
+numerator=
+[[ 16  32  32  91 167]
+ [  0  36  36  95 171]
+ [  0  93  93 152   0]
+ [161   0 177   0   0]
+ [161 177   0   0   0]],
+denominator=338, is_erdos=True
+numerator=
+[[ 2  6  6 17 31]
+ [ 2  6  6 17 31]
+ [ 0 17 17 28  0]
+ [29  0 33  0  0]
+ [29 33  0  0  0]],
+denominator=62, is_erdos=True
+numerator=
+[[14  0  0 23 30]
+ [ 0  0  0 30 37]
+ [ 5 24 24 14  0]
+ [24  0 43  0  0]
+ [24 43  0  0  0]],
+denominator=67, is_erdos=True
+numerator=
+[[  0  54   0  64  91]
+ [  0   0   0  91 118]
+ [ 31  44  80  54   0]
+ [ 80   0 129   0   0]
+ [ 98 111   0   0   0]],
+denominator=209, is_erdos=True
+numerator=
+[[ 41  99   0 131 201]
+ [  0   0   0 201 271]
+ [ 50 108 174 140   0]
+ [174   0 298   0   0]
+ [207 265   0   0   0]],
+denominator=472, is_erdos=True
+numerator=
+[[ 0  9  9 13 22]
+ [ 0  0  0 22 31]
+ [ 7 14 14 18  0]
+ [23  0 30  0  0]
+ [23 30  0  0  0]],
+denominator=53, is_erdos=True
+numerator=
+[[  4  33  33  49  84]
+ [  0   0   0  84 119]
+ [ 25  54  54  70   0]
+ [ 87   0 116   0   0]
+ [ 87 116   0   0   0]],
+denominator=203, is_erdos=True
+numerator=
+[[ 7  0  0 19 26]
+ [ 7  0  0 19 26]
+ [ 2 18 18 14  0]
+ [18  0 34  0  0]
+ [18 34  0  0  0]],
+denominator=52, is_erdos=True
+numerator=
+[[  0  60   0  90 137]
+ [ 34   0   0 103 150]
+ [ 25  64 104  94   0]
+ [104   0 183   0   0]
+ [124 163   0   0   0]],
+denominator=287, is_erdos=True
+numerator=
+[[ 14  69   0 107 167]
+ [ 37   0   0 130 190]
+ [ 27  82 128 120   0]
+ [128   0 229   0   0]
+ [151 206   0   0   0]],
+denominator=357, is_erdos=True
+numerator=
+[[  0  27   0  55  82]
+ [  0  27   0  55  82]
+ [ 22  26  62  54   0]
+ [ 62   0 102   0   0]
+ [ 80  84   0   0   0]],
+denominator=164, is_erdos=True
+numerator=
+[[ 69 146   0 340 532]
+ [  0 169   0 363 555]
+ [113 190 400 384   0]
+ [400   0 687   0   0]
+ [505 582   0   0   0]],
+denominator=1087, is_erdos=True
+numerator=
+[[0 0 3 5 8]
+ [0 3 0 5 8]
+ [2 4 4 6 0]
+ [7 0 9 0 0]
+ [7 9 0 0 0]],
+denominator=16, is_erdos=True
+numerator=
+[[ 39   0 226 394 644]
+ [  0 235   0 409 659]
+ [145 326 332 500   0]
+ [558   0 745   0   0]
+ [561 742   0   0   0]],
+denominator=1303, is_erdos=True
+numerator=
+[[  0 117 189 341 584]
+ [  0 180   0 404 647]
+ [149 262 334 486   0]
+ [523   0 708   0   0]
+ [559 672   0   0   0]],
+denominator=1231, is_erdos=True
+numerator=
+[[  1  55  89 161 276]
+ [  0  85   0 191 306]
+ [ 70 124 158 230   0]
+ [247   0 335   0   0]
+ [264 318   0   0   0]],
+denominator=582, is_erdos=True
+numerator=
+[[ 1  3  0  7 11]
+ [ 1  3  0  7 11]
+ [ 2  4  8  8  0]
+ [ 8  0 14  0  0]
+ [10 12  0  0  0]],
+denominator=22, is_erdos=True
+numerator=
+[[ 3  0 23 41 67]
+ [ 3 23  0 41 67]
+ [14 34 34 52  0]
+ [57  0 77  0  0]
+ [57 77  0  0  0]],
+denominator=134, is_erdos=True
+numerator=
+[[ 7  0 15  8  8]
+ [ 0 16  0 11 11]
+ [ 0  0  0 19 19]
+ [15  0 23  0  0]
+ [16 22  0  0  0]],
+denominator=38, is_erdos=True
+numerator=
+[[ 22  26  62  27  27]
+ [  0  54   0  55  55]
+ [  0   0   0  82  82]
+ [ 62   0 102   0   0]
+ [ 80  84   0   0   0]],
+denominator=164, is_erdos=True
+numerator=
+[[1 0 3 2 2]
+ [1 3 0 2 2]
+ [0 0 0 4 4]
+ [3 0 5 0 0]
+ [3 5 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 0  9 17 10 10]
+ [ 8 12  0 13 13]
+ [ 0  0  0 23 23]
+ [17  0 29  0  0]
+ [21 25  0  0  0]],
+denominator=46, is_erdos=True
+numerator=
+[[ 2  6 12  7  7]
+ [ 5  9  0 10 10]
+ [ 0  0  0 17 17]
+ [12  0 22  0  0]
+ [15 19  0  0  0]],
+denominator=34, is_erdos=True
+numerator=
+[[0 1 1 1 1]
+ [0 1 1 1 1]
+ [0 0 0 2 2]
+ [2 0 2 0 0]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 4  8  8  9  9]
+ [ 0  9  9 10 10]
+ [ 0  0  0 19 19]
+ [17  0 21  0  0]
+ [17 21  0  0  0]],
+denominator=38, is_erdos=True
+numerator=
+[[ 2  6  6  7  7]
+ [ 2  6  6  7  7]
+ [ 0  0  0 14 14]
+ [12  0 16  0  0]
+ [12 16  0  0  0]],
+denominator=28, is_erdos=True
+numerator=
+[[0 0 5 4 4]
+ [0 5 0 4 4]
+ [3 0 0 5 5]
+ [5 0 8 0 0]
+ [5 8 0 0 0]],
+denominator=13, is_erdos=True
+numerator=
+[[ 7  0 33 26 26]
+ [ 0 34  0 29 29]
+ [18  0  0 37 37]
+ [33  0 59  0  0]
+ [34 58  0  0  0]],
+denominator=92, is_erdos=True
+numerator=
+[[  0  35  75  52  52]
+ [  0  60   0  77  77]
+ [ 44   0   0  85  85]
+ [ 75   0 139   0   0]
+ [ 95 119   0   0   0]],
+denominator=214, is_erdos=True
+numerator=
+[[ 11  62 136  94  94]
+ [  0 111   0 143 143]
+ [ 77   0   0 160 160]
+ [136   0 261   0   0]
+ [173 224   0   0   0]],
+denominator=397, is_erdos=True
+numerator=
+[[ 1  0  6  5  5]
+ [ 1  6  0  5  5]
+ [ 3  0  0  7  7]
+ [ 6  0 11  0  0]
+ [ 6 11  0  0  0]],
+denominator=17, is_erdos=True
+numerator=
+[[0 2 4 3 3]
+ [1 3 0 4 4]
+ [2 0 0 5 5]
+ [4 0 8 0 0]
+ [5 7 0 0 0]],
+denominator=12, is_erdos=True
+numerator=
+[[ 0  5  5  7  7]
+ [ 0  5  5  7  7]
+ [ 4  0  0 10 10]
+ [10  0 14  0  0]
+ [10 14  0  0  0]],
+denominator=24, is_erdos=True
+numerator=
+[[  4  36  36  51  51]
+ [  0  37  37  52  52]
+ [ 28   0   0  75  75]
+ [ 73   0 105   0   0]
+ [ 73 105   0   0   0]],
+denominator=178, is_erdos=True
+numerator=
+[[ 1 12 12 17 17]
+ [ 1 12 12 17 17]
+ [ 9  0  0 25 25]
+ [24  0 35  0  0]
+ [24 35  0  0  0]],
+denominator=59, is_erdos=True
+numerator=
+[[ 0  0 11  7  7]
+ [ 0  7  0  9  9]
+ [ 0  7  0  9  9]
+ [11  0 14  0  0]
+ [14 11  0  0  0]],
+denominator=25, is_erdos=True
+numerator=
+[[1 0 3 2 2]
+ [0 2 0 3 3]
+ [0 2 0 3 3]
+ [3 0 5 0 0]
+ [4 4 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 0  5 21 12 12]
+ [ 0 12  0 19 19]
+ [ 0 12  0 19 19]
+ [21  0 29  0  0]
+ [29 21  0  0  0]],
+denominator=50, is_erdos=True
+numerator=
+[[13  8 44 27 27]
+ [ 0 27  0 46 46]
+ [ 0 27  0 46 46]
+ [44  0 75  0  0]
+ [62 57  0  0  0]],
+denominator=119, is_erdos=True
+numerator=
+[[ 0  0 38 31 31]
+ [15 21  0 32 32]
+ [ 0 26  0 37 37]
+ [38  0 62  0  0]
+ [47 53  0  0  0]],
+denominator=100, is_erdos=True
+numerator=
+[[ 7  0 36 29 29]
+ [12 21  0 34 34]
+ [ 0 25  0 38 38]
+ [36  0 65  0  0]
+ [46 55  0  0  0]],
+denominator=101, is_erdos=True
+numerator=
+[[ 0 10 36 27 27]
+ [15 17  0 34 34]
+ [ 0 22  0 39 39]
+ [36  0 64  0  0]
+ [49 51  0  0  0]],
+denominator=100, is_erdos=True
+numerator=
+[[ 1  2  8  6  6]
+ [ 3  4  0  8  8]
+ [ 0  5  0  9  9]
+ [ 8  0 15  0  0]
+ [11 12  0  0  0]],
+denominator=23, is_erdos=True
+numerator=
+[[0 3 3 4 4]
+ [0 0 4 5 5]
+ [0 4 0 5 5]
+ [7 0 7 0 0]
+ [7 7 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[1 2 2 3 3]
+ [0 0 3 4 4]
+ [0 3 0 4 4]
+ [5 0 6 0 0]
+ [5 6 0 0 0]],
+denominator=11, is_erdos=True
+numerator=
+[[ 5  0 11 17 17]
+ [ 5  0 11 17 17]
+ [ 0 18  0 16 16]
+ [22  0 28  0  0]
+ [18 32  0  0  0]],
+denominator=50, is_erdos=True
+numerator=
+[[ 0 22 24 35 35]
+ [13  0 27 38 38]
+ [ 0 30  0 43 43]
+ [51  0 65  0  0]
+ [52 64  0  0  0]],
+denominator=116, is_erdos=True
+numerator=
+[[ 20  76  82 125 125]
+ [ 39   0 101 144 144]
+ [  0 110   0 159 159]
+ [183   0 245   0   0]
+ [186 242   0   0   0]],
+denominator=428, is_erdos=True
+numerator=
+[[ 0 13 21 27 27]
+ [ 0 13 21 27 27]
+ [ 0 20  0 34 34]
+ [42  0 46  0  0]
+ [46 42  0  0  0]],
+denominator=88, is_erdos=True
+numerator=
+[[ 68 100 172 243 243]
+ [  0 117 189 260 260]
+ [  0 180   0 323 323]
+ [361   0 465   0   0]
+ [397 429   0   0   0]],
+denominator=826, is_erdos=True
+numerator=
+[[ 17  38  64  92  92]
+ [ 17  38  64  92  92]
+ [  0  65   0 119 119]
+ [128   0 175   0   0]
+ [141 162   0   0   0]],
+denominator=303, is_erdos=True
+numerator=
+[[ 1  0  8  7  7]
+ [ 2  5  0  8  8]
+ [ 2  5  0  8  8]
+ [ 8  0 15  0  0]
+ [10 13  0  0  0]],
+denominator=23, is_erdos=True
+numerator=
+[[ 0  5 17 14 14]
+ [ 5  9  0 18 18]
+ [ 5  9  0 18 18]
+ [17  0 33  0  0]
+ [23 27  0  0  0]],
+denominator=50, is_erdos=True
+numerator=
+[[ 1  8 28 23 23]
+ [ 8 15  0 30 30]
+ [ 8 15  0 30 30]
+ [28  0 55  0  0]
+ [38 45  0  0  0]],
+denominator=83, is_erdos=True
+numerator=
+[[ 0  5  5  8  8]
+ [ 2  0  6  9  9]
+ [ 2  6  0  9  9]
+ [11  0 15  0  0]
+ [11 15  0  0  0]],
+denominator=26, is_erdos=True
+numerator=
+[[ 1  8  8 13 13]
+ [ 3  0 10 15 15]
+ [ 3 10  0 15 15]
+ [18  0 25  0  0]
+ [18 25  0  0  0]],
+denominator=43, is_erdos=True
+numerator=
+[[ 0  4  6  9  9]
+ [ 0  4  6  9  9]
+ [ 3  5  0 10 10]
+ [12  0 16  0  0]
+ [13 15  0  0  0]],
+denominator=28, is_erdos=True
+numerator=
+[[ 16  54  84 129 129]
+ [  0  58  88 133 133]
+ [ 37  75   0 150 150]
+ [172   0 240   0   0]
+ [187 225   0   0   0]],
+denominator=412, is_erdos=True
+numerator=
+[[ 4 18 28 43 43]
+ [ 4 18 28 43 43]
+ [11 25  0 50 50]
+ [56  0 80  0  0]
+ [61 75  0  0  0]],
+denominator=136, is_erdos=True
+numerator=
+[[0 1 1 2 2]
+ [0 1 1 2 2]
+ [0 1 1 2 2]
+ [3 0 3 0 0]
+ [3 3 0 0 0]],
+denominator=6, is_erdos=True
+numerator=
+[[ 4  8  8 18 18]
+ [ 0  9  9 19 19]
+ [ 0  9  9 19 19]
+ [26  0 30  0  0]
+ [26 30  0  0  0]],
+denominator=56, is_erdos=True
+numerator=
+[[ 4 12 12 27 27]
+ [ 4 12 12 27 27]
+ [ 0 13 13 28 28]
+ [37  0 45  0  0]
+ [37 45  0  0  0]],
+denominator=82, is_erdos=True
+numerator=
+[[ 1  4  4  9  9]
+ [ 1  4  4  9  9]
+ [ 1  4  4  9  9]
+ [12  0 15  0  0]
+ [12 15  0  0  0]],
+denominator=27, is_erdos=True
+numerator=
+[[0 0 1 1 2]
+ [0 0 1 1 2]
+ [1 1 0 2 0]
+ [1 1 2 0 0]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 0  4  0  5  9]
+ [ 4  0  0  5  9]
+ [ 0  0 10  8  0]
+ [ 5  5  8  0  0]
+ [ 9  9  0  0  0]],
+denominator=18, is_erdos=True
+numerator=
+[[ 8 12  0 17 33]
+ [12  0  0 21 37]
+ [ 0  0 38 32  0]
+ [17 21 32  0  0]
+ [33 37  0  0  0]],
+denominator=70, is_erdos=True
+numerator=
+[[ 0  0 20 21 42]
+ [22  0  0 20 41]
+ [ 0  0 41 42  0]
+ [25 36 22  0  0]
+ [36 47  0  0  0]],
+denominator=83, is_erdos=True
+numerator=
+[[ 69   0 102 114 251]
+ [103   0   0 148 285]
+ [  0   0 262 274   0]
+ [139 225 172   0   0]
+ [225 311   0   0   0]],
+denominator=536, is_erdos=True
+numerator=
+[[  0  51  56  69 155]
+ [ 65   0   0  90 176]
+ [  0   0 159 172   0]
+ [104 111 116   0   0]
+ [162 169   0   0   0]],
+denominator=331, is_erdos=True
+numerator=
+[[ 88 155 184 233 547]
+ [201   0   0 346 660]
+ [  0   0 579 628   0]
+ [348 415 444   0   0]
+ [570 637   0   0   0]],
+denominator=1207, is_erdos=True
+numerator=
+[[ 4  4  0  9 17]
+ [ 4  4  0  9 17]
+ [ 0  0 18 16  0]
+ [ 9  9 16  0  0]
+ [17 17  0  0  0]],
+denominator=34, is_erdos=True
+numerator=
+[[ 0  0 14 18 36]
+ [11 11  0 14 32]
+ [ 0  0 32 36  0]
+ [23 23 22  0  0]
+ [34 34  0  0  0]],
+denominator=68, is_erdos=True
+numerator=
+[[15  0 24 33 71]
+ [16 21  0 34 72]
+ [ 0  0 67 76  0]
+ [43 48 52  0  0]
+ [69 74  0  0  0]],
+denominator=143, is_erdos=True
+numerator=
+[[ 45  45  88 126 282]
+ [ 67  67   0 148 304]
+ [  0   0 274 312   0]
+ [181 181 224   0   0]
+ [293 293   0   0   0]],
+denominator=586, is_erdos=True
+numerator=
+[[36  0 19 31 74]
+ [ 0  0 31 43 86]
+ [ 0  0 74 86  0]
+ [53 71 36  0  0]
+ [71 89  0  0  0]],
+denominator=160, is_erdos=True
+numerator=
+[[ 9  9  5 11 28]
+ [ 0  0 11 17 34]
+ [ 0  0 28 34  0]
+ [22 22 18  0  0]
+ [31 31  0  0  0]],
+denominator=62, is_erdos=True
+numerator=
+[[18  0 17 29 64]
+ [18  0 17 29 64]
+ [ 0  0 58 70  0]
+ [37 55 36  0  0]
+ [55 73  0  0  0]],
+denominator=128, is_erdos=True
+numerator=
+[[ 0  9  7 13 29]
+ [ 9  0  7 13 29]
+ [ 0  0 26 32  0]
+ [20 20 18  0  0]
+ [29 29  0  0  0]],
+denominator=58, is_erdos=True
+numerator=
+[[ 22  32  25  53 124]
+ [ 30   0  33  61 132]
+ [  0   0 114 142   0]
+ [ 81  91  84   0   0]
+ [123 133   0   0   0]],
+denominator=256, is_erdos=True
+numerator=
+[[ 9  9 11 23 52]
+ [ 9  9 11 23 52]
+ [ 0  0 46 58  0]
+ [34 34 36  0  0]
+ [52 52  0  0  0]],
+denominator=104, is_erdos=True
+numerator=
+[[ 0  0  6  5  8]
+ [ 0  0  0  8 11]
+ [ 6  0  7  6  0]
+ [ 5  8  6  0  0]
+ [ 8 11  0  0  0]],
+denominator=19, is_erdos=True
+numerator=
+[[ 5  0 11 10 18]
+ [ 0  0  0 18 26]
+ [11  0 17 16  0]
+ [10 18 16  0  0]
+ [18 26  0  0  0]],
+denominator=44, is_erdos=True
+numerator=
+[[  0  44  66  65 120]
+ [  0   0   0 120 175]
+ [ 74   0 111 110   0]
+ [ 81  96 118   0   0]
+ [140 155   0   0   0]],
+denominator=295, is_erdos=True
+numerator=
+[[ 58 143 229 233 448]
+ [  0   0   0 448 663]
+ [255   0 426 430   0]
+ [285 370 456   0   0]
+ [513 598   0   0   0]],
+denominator=1111, is_erdos=True
+numerator=
+[[ 0  8 14 17 32]
+ [ 8  0  0 24 39]
+ [14  0 27 30  0]
+ [17 24 30  0  0]
+ [32 39  0  0  0]],
+denominator=71, is_erdos=True
+numerator=
+[[ 1 13 23 28 53]
+ [13  0  0 40 65]
+ [23  0 45 50  0]
+ [28 40 50  0  0]
+ [53 65  0  0  0]],
+denominator=118, is_erdos=True
+numerator=
+[[ 0  0 15 18 31]
+ [ 0 11  0 20 33]
+ [15  0 23 26  0]
+ [18 20 26  0  0]
+ [31 33  0  0  0]],
+denominator=64, is_erdos=True
+numerator=
+[[ 1  0  4  5  9]
+ [ 0  3  0  6 10]
+ [ 4  0  7  8  0]
+ [ 5  6  8  0  0]
+ [ 9 10  0  0  0]],
+denominator=19, is_erdos=True
+numerator=
+[[ 0 11 33 41 74]
+ [ 0 22  0 52 85]
+ [35  0 58 66  0]
+ [45 46 68  0  0]
+ [79 80  0  0  0]],
+denominator=159, is_erdos=True
+numerator=
+[[ 45  77 261 332 613]
+ [  0 179   0 434 715]
+ [275   0 491 562   0]
+ [360 392 576   0   0]
+ [648 680   0   0   0]],
+denominator=1328, is_erdos=True
+numerator=
+[[ 0  3  9 12 22]
+ [ 3  5  0 14 24]
+ [ 9  0 17 20  0]
+ [12 14 20  0  0]
+ [22 24  0  0  0]],
+denominator=46, is_erdos=True
+numerator=
+[[  3  14  44  59 109]
+ [ 14  25   0  70 120]
+ [ 44   0  85 100   0]
+ [ 59  70 100   0   0]
+ [109 120   0   0   0]],
+denominator=229, is_erdos=True
+numerator=
+[[ 0  0 33 49 82]
+ [ 0  0 33 49 82]
+ [48  0 50 66  0]
+ [46 70 48  0  0]
+ [70 94  0  0  0]],
+denominator=164, is_erdos=True
+numerator=
+[[ 93   0 178 300 540]
+ [  0   0 209 331 571]
+ [273   0 358 480   0]
+ [281 464 366   0   0]
+ [464 647   0   0   0]],
+denominator=1111, is_erdos=True
+numerator=
+[[  0 165 187 351 648]
+ [  0   0 242 406 703]
+ [327   0 430 594   0]
+ [389 470 492   0   0]
+ [635 716   0   0   0]],
+denominator=1351, is_erdos=True
+numerator=
+[[  7  23  27  53 100]
+ [  0   0  37  63 110]
+ [ 48   0  68  94   0]
+ [ 58  74  78   0   0]
+ [ 97 113   0   0   0]],
+denominator=210, is_erdos=True
+numerator=
+[[ 31   0  85 145 261]
+ [ 31   0  85 145 261]
+ [118   0 172 232   0]
+ [126 216 180   0   0]
+ [216 306   0   0   0]],
+denominator=522, is_erdos=True
+numerator=
+[[   0  307  385  739 1375]
+ [ 139    0  441  795 1431]
+ [ 616    0  918 1272    0]
+ [ 760  984 1062    0    0]
+ [1291 1515    0    0    0]],
+denominator=2806, is_erdos=True
+numerator=
+[[  83  484  614 1204 2264]
+ [ 204    0  735 1325 2385]
+ [ 999    0 1530 2120    0]
+ [1239 1640 1770    0    0]
+ [2124 2525    0    0    0]],
+denominator=4649, is_erdos=True
+numerator=
+[[ 0  5  9 17 31]
+ [ 0  5  9 17 31]
+ [14  0 20 28  0]
+ [18 20 24  0  0]
+ [30 32  0  0  0]],
+denominator=62, is_erdos=True
+numerator=
+[[ 4 11 21 41 76]
+ [ 0 12 22 42 77]
+ [33  0 50 70  0]
+ [43 50 60  0  0]
+ [73 80  0  0  0]],
+denominator=153, is_erdos=True
+numerator=
+[[ 3 11 21 41 76]
+ [ 3 11 21 41 76]
+ [32  0 50 70  0]
+ [42 50 60  0  0]
+ [72 80  0  0  0]],
+denominator=152, is_erdos=True
+numerator=
+[[0 0 3 5 8]
+ [0 0 3 5 8]
+ [3 3 4 6 0]
+ [5 5 6 0 0]
+ [8 8 0 0 0]],
+denominator=16, is_erdos=True
+numerator=
+[[ 6  0 17 31 52]
+ [ 0  0 19 33 54]
+ [17 19 28 42  0]
+ [31 33 42  0  0]
+ [52 54  0  0  0]],
+denominator=106, is_erdos=True
+numerator=
+[[ 3  3 11 21 36]
+ [ 0  0 13 23 38]
+ [12 12 20 30  0]
+ [22 22 30  0  0]
+ [37 37  0  0  0]],
+denominator=74, is_erdos=True
+numerator=
+[[ 0  2  7 13 22]
+ [ 2  0  7 13 22]
+ [ 7  7 12 18  0]
+ [13 13 18  0  0]
+ [22 22  0  0  0]],
+denominator=44, is_erdos=True
+numerator=
+[[  6   8  33  63 108]
+ [  8   0  35  65 110]
+ [ 33  35  60  90   0]
+ [ 63  65  90   0   0]
+ [108 110   0   0   0]],
+denominator=218, is_erdos=True
+numerator=
+[[ 2  2 11 21 36]
+ [ 2  2 11 21 36]
+ [11 11 20 30  0]
+ [21 21 30  0  0]
+ [36 36  0  0  0]],
+denominator=72, is_erdos=True
+numerator=
+[[0 0 2 1 1]
+ [1 1 0 1 1]
+ [0 0 0 2 2]
+ [1 1 2 0 0]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 24   0  92  43  43]
+ [ 39  47   0  58  58]
+ [  0   0   0 101 101]
+ [ 42  50 110   0   0]
+ [ 97 105   0   0   0]],
+denominator=202, is_erdos=True
+numerator=
+[[ 4  4 20  9  9]
+ [ 9  9  0 14 14]
+ [ 0  0  0 23 23]
+ [10 10 26  0  0]
+ [23 23  0  0  0]],
+denominator=46, is_erdos=True
+numerator=
+[[3 3 4 3 3]
+ [0 0 6 5 5]
+ [0 0 0 8 8]
+ [5 5 6 0 0]
+ [8 8 0 0 0]],
+denominator=16, is_erdos=True
+numerator=
+[[ 8  0 14 11 11]
+ [ 8  0 14 11 11]
+ [ 0  0  0 22 22]
+ [10 18 16  0  0]
+ [18 26  0  0  0]],
+denominator=44, is_erdos=True
+numerator=
+[[ 0  4  6  5  5]
+ [ 4  0  6  5  5]
+ [ 0  0  0 10 10]
+ [ 6  6  8  0  0]
+ [10 10  0  0  0]],
+denominator=20, is_erdos=True
+numerator=
+[[ 88 128 214 183 183]
+ [120   0 246 215 215]
+ [  0   0   0 398 398]
+ [210 250 336   0   0]
+ [378 418   0   0   0]],
+denominator=796, is_erdos=True
+numerator=
+[[ 4  4 10  9  9]
+ [ 4  4 10  9  9]
+ [ 0  0  0 18 18]
+ [10 10 16  0  0]
+ [18 18  0  0  0]],
+denominator=36, is_erdos=True
+numerator=
+[[ 0  8 23 11 11]
+ [11  0  0 21 21]
+ [11  0  0 21 21]
+ [ 8 15 30  0  0]
+ [23 30  0  0  0]],
+denominator=53, is_erdos=True
+numerator=
+[[ 1 13 38 18 18]
+ [18  0  0 35 35]
+ [18  0  0 35 35]
+ [13 25 50  0  0]
+ [38 50  0  0  0]],
+denominator=88, is_erdos=True
+numerator=
+[[ 0  0 14  8  8]
+ [ 0  8  0 11 11]
+ [ 8  0  0 11 11]
+ [ 7  7 16  0  0]
+ [15 15  0  0  0]],
+denominator=30, is_erdos=True
+numerator=
+[[ 40   0 213 116 116]
+ [  0 121   0 182 182]
+ [111   0   0 187 187]
+ [ 99 114 272   0   0]
+ [235 250   0   0   0]],
+denominator=485, is_erdos=True
+numerator=
+[[ 5  5 34 18 18]
+ [ 0 18  0 31 31]
+ [18  0  0 31 31]
+ [17 17 46  0  0]
+ [40 40  0  0  0]],
+denominator=80, is_erdos=True
+numerator=
+[[ 0  0 26 16 16]
+ [ 8 12  0 19 19]
+ [12  0  0 23 23]
+ [11 15 32  0  0]
+ [27 31  0  0  0]],
+denominator=58, is_erdos=True
+numerator=
+[[ 20   0 186 111 111]
+ [ 53  87   0 144 144]
+ [ 82   0   0 173 173]
+ [ 76 110 242   0   0]
+ [197 231   0   0   0]],
+denominator=428, is_erdos=True
+numerator=
+[[ 0  4 22 13 13]
+ [ 7  9  0 18 18]
+ [10  0  0 21 21]
+ [10 12 30  0  0]
+ [25 27  0  0  0]],
+denominator=52, is_erdos=True
+numerator=
+[[ 2  6 36 21 21]
+ [11 15  0 30 30]
+ [16  0  0 35 35]
+ [16 20 50  0  0]
+ [41 45  0  0  0]],
+denominator=86, is_erdos=True
+numerator=
+[[ 0  0 22 21 21]
+ [ 0  0 22 21 21]
+ [20  0  0 22 22]
+ [17 27 20  0  0]
+ [27 37  0  0  0]],
+denominator=64, is_erdos=True
+numerator=
+[[ 57   0 120 118 118]
+ [  0   0 139 137 137]
+ [ 97   0   0 158 158]
+ [ 91 168 154   0   0]
+ [168 245   0   0   0]],
+denominator=413, is_erdos=True
+numerator=
+[[  0  87 136 143 143]
+ [  0   0 165 172 172]
+ [121   0   0 194 194]
+ [142 159 208   0   0]
+ [246 263   0   0   0]],
+denominator=509, is_erdos=True
+numerator=
+[[ 35  67 116 123 123]
+ [  0   0 150 157 157]
+ [ 96   0   0 184 184]
+ [117 149 198   0   0]
+ [216 248   0   0   0]],
+denominator=464, is_erdos=True
+numerator=
+[[1 0 3 3 3]
+ [1 0 3 3 3]
+ [2 0 0 4 4]
+ [2 4 4 0 0]
+ [4 6 0 0 0]],
+denominator=10, is_erdos=True
+numerator=
+[[ 0 17 31 33 33]
+ [11  0 33 35 35]
+ [22  0  0 46 46]
+ [28 36 50  0  0]
+ [53 61  0  0  0]],
+denominator=114, is_erdos=True
+numerator=
+[[ 27  76 146 156 156]
+ [ 46   0 165 175 175]
+ [101   0   0 230 230]
+ [131 180 250   0   0]
+ [256 305   0   0   0]],
+denominator=561, is_erdos=True
+numerator=
+[[  0  29  71  77  77]
+ [  0  29  71  77  77]
+ [ 54   0   0 100 100]
+ [ 72  70 112   0   0]
+ [128 126   0   0   0]],
+denominator=254, is_erdos=True
+numerator=
+[[124 171 486 531 531]
+ [  0 202 517 562 562]
+ [343   0   0 750 750]
+ [478 525 840   0   0]
+ [898 945   0   0   0]],
+denominator=1843, is_erdos=True
+numerator=
+[[ 31  57 162 177 177]
+ [ 31  57 162 177 177]
+ [104   0   0 250 250]
+ [149 175 280   0   0]
+ [289 315   0   0   0]],
+denominator=604, is_erdos=True
+numerator=
+[[0 0 6 4 4]
+ [2 2 0 5 5]
+ [2 2 0 5 5]
+ [3 3 8 0 0]
+ [7 7 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[  8   0  86  56  56]
+ [ 27  29   0  75  75]
+ [ 27  29   0  75  75]
+ [ 42  44 120   0   0]
+ [102 104   0   0   0]],
+denominator=206, is_erdos=True
+numerator=
+[[ 2  2 28 18 18]
+ [ 9  9  0 25 25]
+ [ 9  9  0 25 25]
+ [14 14 40  0  0]
+ [34 34  0  0  0]],
+denominator=68, is_erdos=True
+numerator=
+[[ 0  0  8  9  9]
+ [ 0  0  8  9  9]
+ [ 5  5  0  8  8]
+ [ 8  8 10  0  0]
+ [13 13  0  0  0]],
+denominator=26, is_erdos=True
+numerator=
+[[18  0 44 51 51]
+ [ 0  0 50 57 57]
+ [23 29  0 56 56]
+ [44 50 70  0  0]
+ [79 85  0  0  0]],
+denominator=164, is_erdos=True
+numerator=
+[[ 9  9 28 33 33]
+ [ 0  0 34 39 39]
+ [16 16  0 40 40]
+ [31 31 50  0  0]
+ [56 56  0  0  0]],
+denominator=112, is_erdos=True
+numerator=
+[[ 9  0 31 36 36]
+ [ 9  0 31 36 36]
+ [13 19  0 40 40]
+ [28 34 50  0  0]
+ [53 59  0  0  0]],
+denominator=112, is_erdos=True
+numerator=
+[[ 0  2  6  7  7]
+ [ 2  0  6  7  7]
+ [ 3  3  0  8  8]
+ [ 6  6 10  0  0]
+ [11 11  0  0  0]],
+denominator=22, is_erdos=True
+numerator=
+[[ 6  8 28 33 33]
+ [ 8  0 30 35 35]
+ [13 15  0 40 40]
+ [28 30 50  0  0]
+ [53 55  0  0  0]],
+denominator=108, is_erdos=True
+numerator=
+[[ 6  6 28 33 33]
+ [ 6  6 28 33 33]
+ [13 13  0 40 40]
+ [28 28 50  0  0]
+ [53 53  0  0  0]],
+denominator=106, is_erdos=True
+numerator=
+[[30  0 23 33 33]
+ [ 0  0 33 43 43]
+ [ 0  0 33 43 43]
+ [37 52 30  0  0]
+ [52 67  0  0  0]],
+denominator=119, is_erdos=True
+numerator=
+[[15 15 14 24 24]
+ [ 0  0 24 34 34]
+ [ 0  0 24 34 34]
+ [31 31 30  0  0]
+ [46 46  0  0  0]],
+denominator=92, is_erdos=True
+numerator=
+[[ 3  0  4  6  6]
+ [ 3  0  4  6  6]
+ [ 0  0  5  7  7]
+ [ 5  8  6  0  0]
+ [ 8 11  0  0  0]],
+denominator=19, is_erdos=True
+numerator=
+[[ 0 15 17 27 27]
+ [15  0 17 27 27]
+ [ 0  0 22 32 32]
+ [28 28 30  0  0]
+ [43 43  0  0  0]],
+denominator=86, is_erdos=True
+numerator=
+[[ 55  80  98 168 168]
+ [ 75   0 118 188 188]
+ [  0   0 143 213 213]
+ [167 192 210   0   0]
+ [272 297   0   0   0]],
+denominator=569, is_erdos=True
+numerator=
+[[15 15 28 48 48]
+ [15 15 28 48 48]
+ [ 0  0 38 58 58]
+ [47 47 60  0  0]
+ [77 77  0  0  0]],
+denominator=154, is_erdos=True
+numerator=
+[[10  0 19 29 29]
+ [10  0 19 29 29]
+ [10  0 19 29 29]
+ [21 36 30  0  0]
+ [36 51  0  0  0]],
+denominator=87, is_erdos=True
+numerator=
+[[  0  70  94 154 154]
+ [ 55   0  99 159 159]
+ [ 55   0  99 159 159]
+ [136 156 180   0   0]
+ [226 246   0   0   0]],
+denominator=472, is_erdos=True
+numerator=
+[[10 20 28 48 48]
+ [15  0 33 53 53]
+ [15  0 33 53 53]
+ [42 52 60  0  0]
+ [72 82  0  0  0]],
+denominator=154, is_erdos=True
+numerator=
+[[ 20  20  42  72  72]
+ [  0  25  47  77  77]
+ [ 25   0  47  77  77]
+ [ 68  68  90   0   0]
+ [113 113   0   0   0]],
+denominator=226, is_erdos=True
+numerator=
+[[ 15  20  42  72  72]
+ [ 15  20  42  72  72]
+ [ 20   0  47  77  77]
+ [ 63  68  90   0   0]
+ [108 113   0   0   0]],
+denominator=221, is_erdos=True
+numerator=
+[[ 0  5  4  0  9]
+ [ 5  0  4  0  9]
+ [ 4  4  3  7  0]
+ [ 0  0  7 11  0]
+ [ 9  9  0  0  0]],
+denominator=18, is_erdos=True
+numerator=
+[[20 30 23  0 63]
+ [30  0 33  0 73]
+ [23 33 26 54  0]
+ [ 0  0 54 82  0]
+ [63 73  0  0  0]],
+denominator=136, is_erdos=True
+numerator=
+[[0 1 0 1 2]
+ [1 0 1 0 2]
+ [1 1 1 1 0]
+ [0 0 2 2 0]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 84 128   0 135 299]
+ [132   0 167   0 347]
+ [129 173 164 180   0]
+ [  0   0 315 331   0]
+ [301 345   0   0   0]],
+denominator=646, is_erdos=True
+numerator=
+[[14 24 14 24 60]
+ [30  0 30  0 76]
+ [29 39 29 39  0]
+ [ 0  0 63 73  0]
+ [63 73  0  0  0]],
+denominator=136, is_erdos=True
+numerator=
+[[ 5  5  6  0 16]
+ [ 5  5  6  0 16]
+ [ 6  6  7 13  0]
+ [ 0  0 13 19  0]
+ [16 16  0  0  0]],
+denominator=32, is_erdos=True
+numerator=
+[[2 2 0 3 7]
+ [2 2 3 0 7]
+ [3 3 4 4 0]
+ [0 0 7 7 0]
+ [7 7 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[ 6  0  6  8 20]
+ [ 6  8  6  0 20]
+ [ 9 11  9 11  0]
+ [ 0  0 19 21  0]
+ [19 21  0  0  0]],
+denominator=40, is_erdos=True
+numerator=
+[[ 61  61  66  96 260]
+ [ 85  85  90   0 284]
+ [126 126 131 161   0]
+ [  0   0 257 287   0]
+ [272 272   0   0   0]],
+denominator=544, is_erdos=True
+numerator=
+[[1 1 1 1 4]
+ [1 1 1 1 4]
+ [2 2 2 2 0]
+ [0 0 4 4 0]
+ [4 4 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 5  0  0  8  6]
+ [ 0  8  5  0  6]
+ [ 6  0  6  0  7]
+ [ 0  0  8 11  0]
+ [ 8 11  0  0  0]],
+denominator=19, is_erdos=True
+numerator=
+[[15 15  0 32 20]
+ [ 0 26 25  0 31]
+ [26  0 25  0 31]
+ [ 0  0 32 50  0]
+ [41 41  0  0  0]],
+denominator=82, is_erdos=True
+numerator=
+[[ 40   0  25  69  48]
+ [  0  79  40   0  63]
+ [ 63   0  48   0  71]
+ [  0   0  69 113   0]
+ [ 79 103   0   0   0]],
+denominator=182, is_erdos=True
+numerator=
+[[12 12  7 27 16]
+ [ 0 25 20  0 29]
+ [25  0 20  0 29]
+ [ 0  0 27 47  0]
+ [37 37  0  0  0]],
+denominator=74, is_erdos=True
+numerator=
+[[  0 160   0 265 201]
+ [135 147 156   0 188]
+ [184   0 205   0 237]
+ [  0   0 265 361   0]
+ [307 319   0   0   0]],
+denominator=626, is_erdos=True
+numerator=
+[[ 37  63   0 124  84]
+ [ 52  78  79   0  99]
+ [ 78   0 105   0 125]
+ [  0   0 124 184   0]
+ [141 167   0   0   0]],
+denominator=308, is_erdos=True
+numerator=
+[[ 5  0  5 12  9]
+ [ 5 12  5  0  9]
+ [ 9  0  9  0 13]
+ [ 0  0 12 19  0]
+ [12 19  0  0  0]],
+denominator=31, is_erdos=True
+numerator=
+[[  0 253 169 456 321]
+ [261 318 234   0 386]
+ [367   0 340   0 492]
+ [  0   0 456 743   0]
+ [571 628   0   0   0]],
+denominator=1199, is_erdos=True
+numerator=
+[[ 49  99  64 204 132]
+ [100 150 115   0 183]
+ [150   0 165   0 233]
+ [  0   0 204 344   0]
+ [249 299   0   0   0]],
+denominator=548, is_erdos=True
+numerator=
+[[3 3 3 3 4]
+ [0 5 0 5 6]
+ [5 0 5 0 6]
+ [0 0 8 8 0]
+ [8 8 0 0 0]],
+denominator=16, is_erdos=True
+numerator=
+[[ 49  69   0  83  95]
+ [ 49  69   0  83  95]
+ [ 60   0 130   0 106]
+ [  0   0 166 130   0]
+ [138 158   0   0   0]],
+denominator=296, is_erdos=True
+numerator=
+[[ 0  8  7  8 10]
+ [ 7  8  0  8 10]
+ [10  0 10  0 13]
+ [ 0  0 16 17  0]
+ [16 17  0  0  0]],
+denominator=33, is_erdos=True
+numerator=
+[[ 301  521  476  556  688]
+ [ 420  640    0  675  807]
+ [ 660    0  835    0 1047]
+ [   0    0 1231 1311    0]
+ [1161 1381    0    0    0]],
+denominator=2542, is_erdos=True
+numerator=
+[[ 7 12  7 12 15]
+ [ 7 12  7 12 15]
+ [15  0 15  0 23]
+ [ 0  0 24 29  0]
+ [24 29  0  0  0]],
+denominator=53, is_erdos=True
+numerator=
+[[10 10  0 30 22]
+ [13 13 21  0 25]
+ [13 13 21  0 25]
+ [ 0  0 30 42  0]
+ [36 36  0  0  0]],
+denominator=72, is_erdos=True
+numerator=
+[[ 39   0  47 108  83]
+ [ 53  66  61   0  97]
+ [ 53  66  61   0  97]
+ [  0   0 108 169   0]
+ [132 145   0   0   0]],
+denominator=277, is_erdos=True
+numerator=
+[[13 13 18 48 34]
+ [25 25 30  0 46]
+ [25 25 30  0 46]
+ [ 0  0 48 78  0]
+ [63 63  0  0  0]],
+denominator=126, is_erdos=True
+numerator=
+[[ 42   0  60  60  80]
+ [ 43  57   0  61  81]
+ [ 43  57  61   0  81]
+ [  0   0 121 121   0]
+ [114 128   0   0   0]],
+denominator=242, is_erdos=True
+numerator=
+[[ 7  7 12 12 16]
+ [10 10  0 15 19]
+ [10 10 15  0 19]
+ [ 0  0 27 27  0]
+ [27 27  0  0  0]],
+denominator=54, is_erdos=True
+numerator=
+[[11 16 11 16 23]
+ [15  0 15 20 27]
+ [15 20 15  0 27]
+ [ 0  0 36 41  0]
+ [36 41  0  0  0]],
+denominator=77, is_erdos=True
+numerator=
+[[ 61  61  66  96 130]
+ [ 61  61  66  96 130]
+ [ 85  85  90   0 154]
+ [  0   0 192 222   0]
+ [207 207   0   0   0]],
+denominator=414, is_erdos=True
+numerator=
+[[1 1 1 1 2]
+ [1 1 1 1 2]
+ [1 1 1 1 2]
+ [0 0 3 3 0]
+ [3 3 0 0 0]],
+denominator=6, is_erdos=True
+numerator=
+[[0 3 0 4 7]
+ [3 0 4 0 7]
+ [0 4 5 5 0]
+ [4 0 5 5 0]
+ [7 7 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[15 24  0 34 64]
+ [24  0 40  0 73]
+ [ 0 40 47 50  0]
+ [34  0 50 53  0]
+ [64 73  0  0  0]],
+denominator=137, is_erdos=True
+numerator=
+[[  0  61  55  84 168]
+ [ 81   0  87   0 200]
+ [  0 117 111 140   0]
+ [109   0 115 144   0]
+ [178 190   0   0   0]],
+denominator=368, is_erdos=True
+numerator=
+[[ 196  388  341  560 1169]
+ [ 512    0  657    0 1485]
+ [   0  843  796 1015    0]
+ [ 715    0  860 1079    0]
+ [1231 1423    0    0    0]],
+denominator=2654, is_erdos=True
+numerator=
+[[1 1 0 2 4]
+ [1 1 2 0 4]
+ [0 2 3 3 0]
+ [2 0 3 3 0]
+ [4 4 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[ 0  0 19 24 47]
+ [16 16 15  0 43]
+ [ 0 29 28 33  0]
+ [29  0 28 33  0]
+ [45 45  0  0  0]],
+denominator=90, is_erdos=True
+numerator=
+[[ 320    0  473  648 1389]
+ [ 372  492  525    0 1441]
+ [   0  863  896 1071    0]
+ [ 783    0  936 1111    0]
+ [1355 1475    0    0    0]],
+denominator=2830, is_erdos=True
+numerator=
+[[ 20  20  33  48 109]
+ [ 32  32  45   0 121]
+ [  0  63  76  91   0]
+ [ 63   0  76  91   0]
+ [115 115   0   0   0]],
+denominator=230, is_erdos=True
+numerator=
+[[ 6  6  5  5 18]
+ [ 0  0  9  9 22]
+ [ 0 14 13 13  0]
+ [14  0 13 13  0]
+ [20 20  0  0  0]],
+denominator=40, is_erdos=True
+numerator=
+[[0 1 1 1 3]
+ [1 0 1 1 3]
+ [0 2 2 2 0]
+ [2 0 2 2 0]
+ [3 3 0 0 0]],
+denominator=6, is_erdos=True
+numerator=
+[[116 176 175 175 598]
+ [160   0 219 219 642]
+ [  0 414 413 413   0]
+ [374   0 433 433   0]
+ [590 650   0   0   0]],
+denominator=1240, is_erdos=True
+numerator=
+[[ 2  2  3  3 10]
+ [ 2  2  3  3 10]
+ [ 0  6  7  7  0]
+ [ 6  0  7  7  0]
+ [10 10  0  0  0]],
+denominator=20, is_erdos=True
+numerator=
+[[ 0 23 20 32 59]
+ [23  0 36  0 75]
+ [20 36 33 45  0]
+ [32  0 45 57  0]
+ [59 75  0  0  0]],
+denominator=134, is_erdos=True
+numerator=
+[[  7  36  31  51  96]
+ [ 36   0  60   0 125]
+ [ 31  60  55  75   0]
+ [ 51   0  75  95   0]
+ [ 96 125   0   0   0]],
+denominator=221, is_erdos=True
+numerator=
+[[ 0  0 27 37 61]
+ [ 0 31 30  0 64]
+ [27 30 29 39  0]
+ [37  0 39 49  0]
+ [61 64  0  0  0]],
+denominator=125, is_erdos=True
+numerator=
+[[ 25   0  44  64 117]
+ [  0  57  60   0 133]
+ [ 44  60  63  83   0]
+ [ 64   0  83 103   0]
+ [117 133   0   0   0]],
+denominator=250, is_erdos=True
+numerator=
+[[  0  77 116 174 309]
+ [  0 135 174   0 367]
+ [144 132 171 229   0]
+ [188   0 215 273   0]
+ [344 332   0   0   0]],
+denominator=676, is_erdos=True
+numerator=
+[[ 356  451  743 1159 2204]
+ [   0  956 1248    0 2709]
+ [ 907 1002 1294 1710    0]
+ [1241    0 1628 2044    0]
+ [2409 2504    0    0    0]],
+denominator=4913, is_erdos=True
+numerator=
+[[  0  28  43  61 121]
+ [ 28  39  54   0 132]
+ [ 43  54  69  87   0]
+ [ 61   0  87 105   0]
+ [121 132   0   0   0]],
+denominator=253, is_erdos=True
+numerator=
+[[ 17  41  66  96 196]
+ [ 41  65  90   0 220]
+ [ 66  90 115 145   0]
+ [ 96   0 145 175   0]
+ [196 220   0   0   0]],
+denominator=416, is_erdos=True
+numerator=
+[[  0  63  55  55 152]
+ [  0   0  76  76 173]
+ [ 71  90  82  82   0]
+ [101   0 112 112   0]
+ [153 172   0   0   0]],
+denominator=325, is_erdos=True
+numerator=
+[[11 25 22 22 68]
+ [ 0  0 34 34 80]
+ [28 42 39 39  0]
+ [42  0 53 53  0]
+ [67 81  0  0  0]],
+denominator=148, is_erdos=True
+numerator=
+[[  0 113 110 110 317]
+ [ 65   0 126 126 333]
+ [116 180 177 177   0]
+ [176   0 237 237   0]
+ [293 357   0   0   0]],
+denominator=650, is_erdos=True
+numerator=
+[[ 49 172 167 167 512]
+ [ 92   0 210 210 555]
+ [177 300 295 295   0]
+ [277   0 395 395   0]
+ [472 595   0   0   0]],
+denominator=1067, is_erdos=True
+numerator=
+[[ 0 21 29 29 79]
+ [ 0 21 29 29 79]
+ [34 36 44 44  0]
+ [46  0 56 56  0]
+ [78 80  0  0  0]],
+denominator=158, is_erdos=True
+numerator=
+[[ 76 129 189 189 564]
+ [  0 148 208 208 583]
+ [217 270 330 330   0]
+ [307   0 420 420   0]
+ [547 600   0   0   0]],
+denominator=1147, is_erdos=True
+numerator=
+[[ 19  43  63  63 188]
+ [ 19  43  63  63 188]
+ [ 66  90 110 110   0]
+ [ 96   0 140 140   0]
+ [176 200   0   0   0]],
+denominator=376, is_erdos=True
+numerator=
+[[ 0  8  5  5  5]
+ [ 5  0  0  9  9]
+ [ 5  0  9  0  9]
+ [ 5  0  9  9  0]
+ [ 8 15  0  0  0]],
+denominator=23, is_erdos=True
+numerator=
+[[ 1 13  8  8  8]
+ [ 8  0  0 15 15]
+ [ 8  0 15  0 15]
+ [ 8  0 15 15  0]
+ [13 25  0  0  0]],
+denominator=38, is_erdos=True
+numerator=
+[[ 0  0 14 15 15]
+ [ 0 18  0 13 13]
+ [13  0 15  0 16]
+ [13  0 15 16  0]
+ [18 26  0  0  0]],
+denominator=44, is_erdos=True
+numerator=
+[[ 24   0  46  51  51]
+ [  0  66   0  53  53]
+ [ 41   0  63   0  68]
+ [ 41   0  63  68   0]
+ [ 66 106   0   0   0]],
+denominator=172, is_erdos=True
+numerator=
+[[  0  40  54  55  55]
+ [  0  58   0  73  73]
+ [ 53   0  75   0  76]
+ [ 53   0  75  76   0]
+ [ 98 106   0   0   0]],
+denominator=204, is_erdos=True
+numerator=
+[[ 8 16 22 23 23]
+ [ 0 26  0 33 33]
+ [21  0 35  0 36]
+ [21  0 35 36  0]
+ [42 50  0  0  0]],
+denominator=92, is_erdos=True
+numerator=
+[[ 0  0 13 15 15]
+ [ 5 16  0 11 11]
+ [11  0 15  0 17]
+ [11  0 15 17  0]
+ [16 27  0  0  0]],
+denominator=43, is_erdos=True
+numerator=
+[[18  0 41 48 48]
+ [13 56  0 43 43]
+ [34  0 57  0 64]
+ [34  0 57 64  0]
+ [56 99  0  0  0]],
+denominator=155, is_erdos=True
+numerator=
+[[  0  40  49  55  55]
+ [ 25  48   0  63  63]
+ [ 43   0  75   0  81]
+ [ 43   0  75  81   0]
+ [ 88 111   0   0   0]],
+denominator=199, is_erdos=True
+numerator=
+[[ 17  61  76  86  86]
+ [ 36  80   0 105 105]
+ [ 66   0 125   0 135]
+ [ 66   0 125 135   0]
+ [141 185   0   0   0]],
+denominator=326, is_erdos=True
+numerator=
+[[ 0 10  4  7  7]
+ [ 4  0  6  9  9]
+ [ 7  0  9  0 12]
+ [ 7  0  9 12  0]
+ [10 18  0  0  0]],
+denominator=28, is_erdos=True
+numerator=
+[[ 2 16  6 11 11]
+ [ 6  0 10 15 15]
+ [11  0 15  0 20]
+ [11  0 15 20  0]
+ [16 30  0  0  0]],
+denominator=46, is_erdos=True
+numerator=
+[[ 0 11  9 14 14]
+ [ 0 11  9 14 14]
+ [13  0 15  0 20]
+ [13  0 15 20  0]
+ [22 26  0  0  0]],
+denominator=48, is_erdos=True
+numerator=
+[[ 56 144 114 189 189]
+ [  0 158 128 203 203]
+ [167   0 225   0 300]
+ [167   0 225 300   0]
+ [302 390   0   0   0]],
+denominator=692, is_erdos=True
+numerator=
+[[ 14  48  38  63  63]
+ [ 14  48  38  63  63]
+ [ 51   0  75   0 100]
+ [ 51   0  75 100   0]
+ [ 96 130   0   0   0]],
+denominator=226, is_erdos=True
+numerator=
+[[ 0  0 12 13 13]
+ [ 8  8  0 11 11]
+ [ 0 11 13  0 14]
+ [11  0 13 14  0]
+ [19 19  0  0  0]],
+denominator=38, is_erdos=True
+numerator=
+[[ 420    0  852  913  933]
+ [ 488  648    0  981 1001]
+ [   0  831 1103    0 1184]
+ [ 731    0 1163 1224    0]
+ [1479 1639    0    0    0]],
+denominator=3118, is_erdos=True
+numerator=
+[[ 5  5 12 13 13]
+ [ 8  8  0 16 16]
+ [ 0 11 18  0 19]
+ [11  0 18 19  0]
+ [24 24  0  0  0]],
+denominator=48, is_erdos=True
+numerator=
+[[39  0 32 45 48]
+ [ 0  0 45 58 61]
+ [ 0 70 39  0 55]
+ [55  0 48 61  0]
+ [70 94  0  0  0]],
+denominator=164, is_erdos=True
+numerator=
+[[24 24 20 33 33]
+ [ 0  0 36 49 49]
+ [ 0 43 39  0 52]
+ [43  0 39 52  0]
+ [67 67  0  0  0]],
+denominator=134, is_erdos=True
+numerator=
+[[26  0 34 47 51]
+ [26  0 34 47 51]
+ [ 0 63 39  0 56]
+ [43  0 51 64  0]
+ [63 95  0  0  0]],
+denominator=158, is_erdos=True
+numerator=
+[[0 2 2 3 3]
+ [2 0 2 3 3]
+ [0 3 3 0 4]
+ [3 0 3 4 0]
+ [5 5 0 0 0]],
+denominator=10, is_erdos=True
+numerator=
+[[ 76 116 115 182 187]
+ [105   0 144 211 216]
+ [  0 202 201   0 273]
+ [177   0 216 283   0]
+ [318 358   0   0   0]],
+denominator=676, is_erdos=True
+numerator=
+[[ 8  8 12 19 19]
+ [ 8  8 12 19 19]
+ [ 0 17 21  0 28]
+ [17  0 21 28  0]
+ [33 33  0  0  0]],
+denominator=66, is_erdos=True
+numerator=
+[[ 0  0 45 45 49]
+ [21 32  0 41 45]
+ [21 32 41  0 45]
+ [33  0 53 53  0]
+ [64 75  0  0  0]],
+denominator=139, is_erdos=True
+numerator=
+[[ 50   0 145 145 159]
+ [ 61 112   0 156 170]
+ [ 61 112 156   0 170]
+ [103   0 198 198   0]
+ [224 275   0   0   0]],
+denominator=499, is_erdos=True
+numerator=
+[[ 0 24 51 51 55]
+ [27 32  0 59 63]
+ [27 32 59  0 63]
+ [39  0 71 71  0]
+ [88 93  0  0  0]],
+denominator=181, is_erdos=True
+numerator=
+[[ 57 101 236 236 256]
+ [116 160   0 295 315]
+ [116 160 295   0 315]
+ [176   0 355 355   0]
+ [421 465   0   0   0]],
+denominator=886, is_erdos=True
+numerator=
+[[ 57   0  68  87 102]
+ [  0   0  87 106 121]
+ [ 46 120  57   0  91]
+ [ 91   0 102 121   0]
+ [120 194   0   0   0]],
+denominator=314, is_erdos=True
+numerator=
+[[   0  687  588  803  896]
+ [   0    0  817 1032 1125]
+ [ 632  744  645    0  953]
+ [ 911    0  924 1139    0]
+ [1431 1543    0    0    0]],
+denominator=2974, is_erdos=True
+numerator=
+[[ 575 1048  902 1312 1484]
+ [   0    0 1443 1853 2025]
+ [ 903 1376 1230    0 1812]
+ [1419    0 1746 2156    0]
+ [2424 2897    0    0    0]],
+denominator=5321, is_erdos=True
+numerator=
+[[ 38   0  64  83  96]
+ [ 38   0  64  83  96]
+ [ 31 104  57   0  89]
+ [ 70   0  96 115   0]
+ [104 177   0   0   0]],
+denominator=281, is_erdos=True
+numerator=
+[[  0 100  97 136 151]
+ [ 67   0 108 147 162]
+ [ 76 120 117   0 171]
+ [121   0 162 201   0]
+ [220 264   0   0   0]],
+denominator=484, is_erdos=True
+numerator=
+[[ 56 148 143 208 233]
+ [ 93   0 180 245 270]
+ [108 200 195   0 285]
+ [183   0 270 335   0]
+ [348 440   0   0   0]],
+denominator=788, is_erdos=True
+numerator=
+[[  0 229 311 429 463]
+ [  0 229 311 429 463]
+ [300 272 354   0 506]
+ [402   0 456 574   0]
+ [730 702   0   0   0]],
+denominator=1432, is_erdos=True
+numerator=
+[[1028 1332 1947 2832 3087]
+ [   0 1589 2204 3089 3344]
+ [1736 2040 2655    0 3795]
+ [2501    0 3420 4305    0]
+ [4961 5265    0    0    0]],
+denominator=10226, is_erdos=True
+numerator=
+[[ 257  444  649  944 1029]
+ [ 257  444  649  944 1029]
+ [ 493  680  885    0 1265]
+ [ 748    0 1140 1435    0]
+ [1568 1755    0    0    0]],
+denominator=3323, is_erdos=True
+numerator=
+[[ 0 21 16 16 23]
+ [ 0 21 16 16 23]
+ [ 0  0 23 23 30]
+ [34  0 21 21  0]
+ [42 34  0  0  0]],
+denominator=76, is_erdos=True
+numerator=
+[[232 284 215 215 358]
+ [  0 342 273 273 416]
+ [  0   0 387 387 530]
+ [446   0 429 429   0]
+ [626 678   0   0   0]],
+denominator=1304, is_erdos=True
+numerator=
+[[ 29  52  41  41  68]
+ [ 29  52  41  41  68]
+ [  0   0  68  68  95]
+ [ 69   0  81  81   0]
+ [104 127   0   0   0]],
+denominator=231, is_erdos=True
+numerator=
+[[ 0 28 13 13 22]
+ [13  0 18 18 27]
+ [13  0 18 18 27]
+ [22  0 27 27  0]
+ [28 48  0  0  0]],
+denominator=76, is_erdos=True
+numerator=
+[[ 8 44 19 19 34]
+ [19  0 30 30 45]
+ [19  0 30 30 45]
+ [34  0 45 45  0]
+ [44 80  0  0  0]],
+denominator=124, is_erdos=True
+numerator=
+[[ 0 21 19 19 29]
+ [ 0 21 19 19 29]
+ [18  0 20 20 30]
+ [28  0 30 30  0]
+ [42 46  0  0  0]],
+denominator=88, is_erdos=True
+numerator=
+[[ 68 132 117 117 192]
+ [  0 149 134 134 209]
+ [101   0 150 150 225]
+ [176   0 225 225   0]
+ [281 345   0   0   0]],
+denominator=626, is_erdos=True
+numerator=
+[[ 17  44  39  39  64]
+ [ 17  44  39  39  64]
+ [ 28   0  50  50  75]
+ [ 53   0  75  75   0]
+ [ 88 115   0   0   0]],
+denominator=203, is_erdos=True
+numerator=
+[[ 0 14 17 17 24]
+ [ 0 14 17 17 24]
+ [ 0 14 17 17 24]
+ [30  0 21 21  0]
+ [42 30  0  0  0]],
+denominator=72, is_erdos=True
+numerator=
+[[ 52  44  59  59  94]
+ [  0  57  72  72 107]
+ [  0  57  72  72 107]
+ [ 98   0 105 105   0]
+ [158 150   0   0   0]],
+denominator=308, is_erdos=True
+numerator=
+[[104 132 177 177 282]
+ [104 132 177 177 282]
+ [  0 158 203 203 308]
+ [242   0 315 315   0]
+ [422 450   0   0   0]],
+denominator=872, is_erdos=True
+numerator=
+[[0 0 1 1 2]
+ [0 0 1 1 2]
+ [1 1 1 1 0]
+ [1 1 1 1 0]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 3  0  5  5 12]
+ [ 0  0  6  6 13]
+ [ 5  6  7  7  0]
+ [ 5  6  7  7  0]
+ [12 13  0  0  0]],
+denominator=25, is_erdos=True
+numerator=
+[[ 3  3  6  6 16]
+ [ 0  0  8  8 18]
+ [ 7  7 10 10  0]
+ [ 7  7 10 10  0]
+ [17 17  0  0  0]],
+denominator=34, is_erdos=True
+numerator=
+[[0 1 2 2 5]
+ [1 0 2 2 5]
+ [2 2 3 3 0]
+ [2 2 3 3 0]
+ [5 5 0 0 0]],
+denominator=10, is_erdos=True
+numerator=
+[[ 3  4  9  9 24]
+ [ 4  0 10 10 25]
+ [ 9 10 15 15  0]
+ [ 9 10 15 15  0]
+ [24 25  0  0  0]],
+denominator=49, is_erdos=True
+numerator=
+[[0 0 2 2 2]
+ [1 1 0 2 2]
+ [1 1 2 0 2]
+ [1 1 2 2 0]
+ [3 3 0 0 0]],
+denominator=6, is_erdos=True
+numerator=
+[[ 4  0 13 13 13]
+ [ 6  7  0 15 15]
+ [ 6  7 15  0 15]
+ [ 6  7 15 15  0]
+ [21 22  0  0  0]],
+denominator=43, is_erdos=True
+numerator=
+[[1 1 4 4 4]
+ [2 2 0 5 5]
+ [2 2 5 0 5]
+ [2 2 5 5 0]
+ [7 7 0 0 0]],
+denominator=14, is_erdos=True
+numerator=
+[[ 0  0  8 10 10]
+ [ 0  0  8 10 10]
+ [ 7  7  6  0  8]
+ [ 7  7  6  8  0]
+ [14 14  0  0  0]],
+denominator=28, is_erdos=True
+numerator=
+[[27  0 38 52 52]
+ [ 0  0 47 61 61]
+ [31 40 42  0 56]
+ [31 40 42 56  0]
+ [80 89  0  0  0]],
+denominator=169, is_erdos=True
+numerator=
+[[ 27  27  44  64  64]
+ [  0   0  62  82  82]
+ [ 43  43  60   0  80]
+ [ 43  43  60  80   0]
+ [113 113   0   0   0]],
+denominator=226, is_erdos=True
+numerator=
+[[ 27   0  53  73  73]
+ [ 27   0  53  73  73]
+ [ 34  52  60   0  80]
+ [ 34  52  60  80   0]
+ [104 122   0   0   0]],
+denominator=226, is_erdos=True
+numerator=
+[[ 0  3  5  7  7]
+ [ 3  0  5  7  7]
+ [ 4  4  6  0  8]
+ [ 4  4  6  8  0]
+ [11 11  0  0  0]],
+denominator=22, is_erdos=True
+numerator=
+[[ 9 12 22 32 32]
+ [12  0 25 35 35]
+ [17 20 30  0 40]
+ [17 20 30 40  0]
+ [52 55  0  0  0]],
+denominator=107, is_erdos=True
+numerator=
+[[15 15 11 11 16]
+ [ 0  0 21 21 26]
+ [ 0  0 21 21 26]
+ [19 19 15 15  0]
+ [34 34  0  0  0]],
+denominator=68, is_erdos=True
+numerator=
+[[15  0 17 17 22]
+ [15  0 17 17 22]
+ [ 0  0 22 22 27]
+ [13 28 15 15  0]
+ [28 43  0  0  0]],
+denominator=71, is_erdos=True
+numerator=
+[[ 0 15 14 14 19]
+ [15  0 14 14 19]
+ [ 0  0 19 19 24]
+ [16 16 15 15  0]
+ [31 31  0  0  0]],
+denominator=62, is_erdos=True
+numerator=
+[[ 55  80  77  77 112]
+ [ 75   0  97  97 132]
+ [  0   0 122 122 157]
+ [ 83 108 105 105   0]
+ [188 213   0   0   0]],
+denominator=401, is_erdos=True
+numerator=
+[[15 15 22 22 32]
+ [15 15 22 22 32]
+ [ 0  0 32 32 42]
+ [23 23 30 30  0]
+ [53 53  0  0  0]],
+denominator=106, is_erdos=True
+numerator=
+[[10  0 16 16 21]
+ [10  0 16 16 21]
+ [10  0 16 16 21]
+ [ 9 24 15 15  0]
+ [24 39  0  0  0]],
+denominator=63, is_erdos=True
+numerator=
+[[  0  70  76  76 106]
+ [ 55   0  81  81 111]
+ [ 55   0  81  81 111]
+ [ 64  84  90  90   0]
+ [154 174   0   0   0]],
+denominator=328, is_erdos=True
+numerator=
+[[20 20 33 33 48]
+ [ 0 25 38 38 53]
+ [25  0 38 38 53]
+ [32 32 45 45  0]
+ [77 77  0  0  0]],
+denominator=154, is_erdos=True
+numerator=
+[[3 3 2 2 2]
+ [3 3 2 2 2]
+ [0 0 4 4 4]
+ [0 0 4 4 4]
+ [6 6 0 0 0]],
+denominator=12, is_erdos=True
+numerator=
+[[12 12 10 10 10]
+ [ 0 15 13 13 13]
+ [15  0 13 13 13]
+ [ 0  0 18 18 18]
+ [27 27  0  0  0]],
+denominator=54, is_erdos=True
+numerator=
+[[ 0 13  7  7  7]
+ [ 7  0  9  9  9]
+ [ 7  0  9  9  9]
+ [ 7  0  9  9  9]
+ [13 21  0  0  0]],
+denominator=34, is_erdos=True
+numerator=
+[[0 1 1 1 1]
+ [0 1 1 1 1]
+ [1 0 1 1 1]
+ [1 0 1 1 1]
+ [2 2 0 0 0]],
+denominator=4, is_erdos=True
+numerator=
+[[ 8 12 12 12 12]
+ [ 0 14 14 14 14]
+ [11  0 15 15 15]
+ [11  0 15 15 15]
+ [26 30  0  0  0]],
+denominator=56, is_erdos=True
+numerator=
+[[0 2 2 2 2]
+ [2 0 0 3 3]
+ [2 0 0 3 3]
+ [2 3 3 0 0]
+ [2 3 3 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[1 3 3 3 3]
+ [3 0 0 5 5]
+ [3 0 0 5 5]
+ [3 5 5 0 0]
+ [3 5 5 0 0]],
+denominator=13, is_erdos=True
+numerator=
+[[0 0 1 1 1]
+ [0 1 0 1 1]
+ [1 0 0 1 1]
+ [1 1 1 0 0]
+ [1 1 1 0 0]],
+denominator=3, is_erdos=True
+numerator=
+[[ 8  0 12 13 13]
+ [ 0 14  0 16 16]
+ [12  0  0 17 17]
+ [13 16 17  0  0]
+ [13 16 17  0  0]],
+denominator=46, is_erdos=True
+numerator=
+[[ 8  8 13 15 15]
+ [ 0 15  0 22 22]
+ [15  0  0 22 22]
+ [18 18 23  0  0]
+ [18 18 23  0  0]],
+denominator=59, is_erdos=True
+numerator=
+[[ 0  8 11 14 14]
+ [ 8  9  0 15 15]
+ [11  0  0 18 18]
+ [14 15 18  0  0]
+ [14 15 18  0  0]],
+denominator=47, is_erdos=True
+numerator=
+[[ 7 11 16 21 21]
+ [11 15  0 25 25]
+ [16  0  0 30 30]
+ [21 25 30  0  0]
+ [21 25 30  0  0]],
+denominator=76, is_erdos=True
+numerator=
+[[0 4 4 7 7]
+ [0 4 4 7 7]
+ [6 0 0 8 8]
+ [8 7 7 0 0]
+ [8 7 7 0 0]],
+denominator=22, is_erdos=True
+numerator=
+[[ 8  9  9 18 18]
+ [ 0 11 11 20 20]
+ [14  0  0 24 24]
+ [20 21 21  0  0]
+ [20 21 21  0  0]],
+denominator=62, is_erdos=True
+numerator=
+[[0 1 1 2 2]
+ [1 0 1 2 2]
+ [1 1 0 2 2]
+ [2 2 2 0 0]
+ [2 2 2 0 0]],
+denominator=6, is_erdos=True
+numerator=
+[[3 0 5 5 5]
+ [0 0 6 6 6]
+ [5 6 0 0 7]
+ [5 6 0 7 0]
+ [5 6 7 0 0]],
+denominator=18, is_erdos=True
+numerator=
+[[ 3  3  6  6  6]
+ [ 0  0  8  8  8]
+ [ 7  7  0  0 10]
+ [ 7  7  0 10  0]
+ [ 7  7 10  0  0]],
+denominator=24, is_erdos=True
+numerator=
+[[0 1 2 2 2]
+ [1 0 2 2 2]
+ [2 2 0 0 3]
+ [2 2 0 3 0]
+ [2 2 3 0 0]],
+denominator=7, is_erdos=True
+numerator=
+[[ 3  4  9  9  9]
+ [ 4  0 10 10 10]
+ [ 9 10  0  0 15]
+ [ 9 10  0 15  0]
+ [ 9 10 15  0  0]],
+denominator=34, is_erdos=True
+numerator=
+[[1 1 3 3 3]
+ [1 1 3 3 3]
+ [3 3 0 0 5]
+ [3 3 0 5 0]
+ [3 3 5 0 0]],
+denominator=11, is_erdos=True
+numerator=
+[[0 2 2 2 2]
+ [2 0 0 3 3]
+ [2 0 3 0 3]
+ [2 3 0 3 0]
+ [2 3 3 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[1 3 3 3 3]
+ [3 0 0 5 5]
+ [3 0 5 0 5]
+ [3 5 0 5 0]
+ [3 5 5 0 0]],
+denominator=13, is_erdos=True
+numerator=
+[[0 0 1 1 1]
+ [0 1 0 1 1]
+ [1 0 1 0 1]
+ [1 1 0 1 0]
+ [1 1 1 0 0]],
+denominator=3, is_erdos=True
+numerator=
+[[ 55   0  84  87  88]
+ [  0  97   0 108 109]
+ [ 84   0 113   0 117]
+ [ 87 108   0 119   0]
+ [ 88 109 117   0   0]],
+denominator=314, is_erdos=True
+numerator=
+[[11 11 19 19 20]
+ [ 0 21  0 29 30]
+ [21  0 29  0 30]
+ [24 24  0 32  0]
+ [24 24 32  0  0]],
+denominator=80, is_erdos=True
+numerator=
+[[  0  55  79  88  91]
+ [ 55  63   0  96  99]
+ [ 79   0 111   0 123]
+ [ 88  96   0 129   0]
+ [ 91  99 123   0   0]],
+denominator=313, is_erdos=True
+numerator=
+[[ 47  76 116 131 136]
+ [ 76 105   0 160 165]
+ [116   0 185   0 205]
+ [131 160   0 215   0]
+ [136 165 205   0   0]],
+denominator=506, is_erdos=True
+numerator=
+[[ 0 11 11 17 17]
+ [ 0 11 11 17 17]
+ [18  0 16  0 22]
+ [18 16  0 22  0]
+ [20 18 18  0  0]],
+denominator=56, is_erdos=True
+numerator=
+[[ 52  63  63 108 108]
+ [  0  76  76 121 121]
+ [109   0 120   0 165]
+ [109 120   0 165   0]
+ [124 135 135   0   0]],
+denominator=394, is_erdos=True
+numerator=
+[[13 21 21 36 36]
+ [13 21 21 36 36]
+ [32  0 40  0 55]
+ [32 40  0 55  0]
+ [37 45 45  0  0]],
+denominator=127, is_erdos=True
+numerator=
+[[ 54   0  55  76  83]
+ [  0   0  73  94 101]
+ [ 55  73  56   0  84]
+ [ 76  94   0  98   0]
+ [ 83 101  84   0   0]],
+denominator=268, is_erdos=True
+numerator=
+[[27 27 29 44 49]
+ [ 0  0 47 62 67]
+ [38 38 40  0 60]
+ [53 53  0 70  0]
+ [58 58 60  0  0]],
+denominator=176, is_erdos=True
+numerator=
+[[ 0  6  7 10 11]
+ [ 6  0  7 10 11]
+ [ 7  7  8  0 12]
+ [10 10  0 14  0]
+ [11 11 12  0  0]],
+denominator=34, is_erdos=True
+numerator=
+[[18 24 29 44 49]
+ [24  0 35 50 55]
+ [29 35 40  0 60]
+ [44 50  0 70  0]
+ [49 55 60  0  0]],
+denominator=164, is_erdos=True
+numerator=
+[[ 0 15 11 11 16]
+ [15  0 11 11 16]
+ [ 0  0 16 16 21]
+ [19 19  0 15  0]
+ [19 19 15  0  0]],
+denominator=53, is_erdos=True
+numerator=
+[[ 55  80  56  56  91]
+ [ 75   0  76  76 111]
+ [  0   0 101 101 136]
+ [104 129   0 105   0]
+ [104 129 105   0   0]],
+denominator=338, is_erdos=True
+numerator=
+[[15 15 16 16 26]
+ [15 15 16 16 26]
+ [ 0  0 26 26 36]
+ [29 29  0 30  0]
+ [29 29 30  0  0]],
+denominator=88, is_erdos=True
+numerator=
+[[  0  70  58  58  88]
+ [ 55   0  63  63  93]
+ [ 55   0  63  63  93]
+ [ 82 102   0  90   0]
+ [ 82 102  90   0   0]],
+denominator=274, is_erdos=True
+numerator=
+[[10 20 16 16 26]
+ [15  0 21 21 31]
+ [15  0 21 21 31]
+ [24 34  0 30  0]
+ [24 34 30  0  0]],
+denominator=88, is_erdos=True
+numerator=
+[[15 20 24 24 39]
+ [15 20 24 24 39]
+ [20  0 29 29 44]
+ [36 41  0 45  0]
+ [36 41 45  0  0]],
+denominator=122, is_erdos=True
+numerator=
+[[ 0  8 11  8 11]
+ [ 8  9  0  9 12]
+ [11  0  0 12 15]
+ [ 8  9 12  9  0]
+ [11 12 15  0  0]],
+denominator=38, is_erdos=True
+numerator=
+[[ 0 28 28 29 39]
+ [ 0 28 28 29 39]
+ [42  0  0 36 46]
+ [36 29 29 30  0]
+ [46 39 39  0  0]],
+denominator=124, is_erdos=True
+numerator=
+[[ 0  7  7  8 11]
+ [ 7  0  7  8 11]
+ [ 7  7  0  8 11]
+ [ 8  8  8  9  0]
+ [11 11 11  0  0]],
+denominator=33, is_erdos=True
+numerator=
+[[ 5  5 14 24 24]
+ [ 5  5 14 24 24]
+ [ 5  5 14 24 24]
+ [21 21 30  0  0]
+ [36 36  0  0  0]],
+denominator=72, is_erdos=True
+numerator=
+[[ 26  44  59  59  94]
+ [ 26  44  59  59  94]
+ [ 26  44  59  59  94]
+ [ 72   0 105 105   0]
+ [132 150   0   0   0]],
+denominator=282, is_erdos=True
+numerator=
+[[1 1 3 3 8]
+ [1 1 3 3 8]
+ [3 3 5 5 0]
+ [3 3 5 5 0]
+ [8 8 0 0 0]],
+denominator=16, is_erdos=True
+numerator=
+[[ 9  9 22 32 32]
+ [ 9  9 22 32 32]
+ [17 17 30  0 40]
+ [17 17 30 40  0]
+ [52 52  0  0  0]],
+denominator=104, is_erdos=True
+numerator=
+[[10 20 22 22 32]
+ [15  0 27 27 37]
+ [15  0 27 27 37]
+ [18 28 30 30  0]
+ [48 58  0  0  0]],
+denominator=106, is_erdos=True
+numerator=
+[[15 20 33 33 48]
+ [15 20 33 33 48]
+ [20  0 38 38 53]
+ [27 32 45 45  0]
+ [72 77  0  0  0]],
+denominator=149, is_erdos=True
+numerator=
+[[11 16 14 14 14]
+ [11 16 14 14 14]
+ [15  0 18 18 18]
+ [ 0  0 23 23 23]
+ [32 37  0  0  0]],
+denominator=69, is_erdos=True
+numerator=
+[[3 3 4 4 4]
+ [3 3 4 4 4]
+ [3 3 4 4 4]
+ [0 0 6 6 6]
+ [9 9 0 0 0]],
+denominator=18, is_erdos=True
+numerator=
+[[1 4 2 2 2]
+ [2 0 3 3 3]
+ [2 0 3 3 3]
+ [2 0 3 3 3]
+ [4 7 0 0 0]],
+denominator=11, is_erdos=True
+numerator=
+[[ 2  4  4  4  4]
+ [ 2  4  4  4  4]
+ [ 3  0  5  5  5]
+ [ 3  0  5  5  5]
+ [ 8 10  0  0  0]],
+denominator=18, is_erdos=True
+numerator=
+[[ 4  4  6  6  6]
+ [ 4  4  6  6  6]
+ [ 0  5  7  7  7]
+ [ 5  0  7  7  7]
+ [13 13  0  0  0]],
+denominator=26, is_erdos=True
+numerator=
+[[2 3 3 6 6]
+ [2 3 3 6 6]
+ [4 0 0 8 8]
+ [6 7 7 0 0]
+ [6 7 7 0 0]],
+denominator=20, is_erdos=True
+numerator=
+[[ 3  4  4  9  9]
+ [ 4  0  5 10 10]
+ [ 4  5  0 10 10]
+ [ 9 10 10  0  0]
+ [ 9 10 10  0  0]],
+denominator=29, is_erdos=True
+numerator=
+[[18 18 29 44 49]
+ [18 18 29 44 49]
+ [29 29 40  0 60]
+ [44 44  0 70  0]
+ [49 49 60  0  0]],
+denominator=158, is_erdos=True
+numerator=
+[[20 20 24 24 39]
+ [ 0 25 29 29 44]
+ [25  0 29 29 44]
+ [41 41  0 45  0]
+ [41 41 45  0  0]],
+denominator=127, is_erdos=True
+numerator=
+[[ 5  5  8  8 13]
+ [ 5  5  8  8 13]
+ [ 5  5  8  8 13]
+ [12 12  0 15  0]
+ [12 12 15  0  0]],
+denominator=39, is_erdos=True
+numerator=
+[[ 7 11 16 11 16]
+ [11 15  0 15 20]
+ [16  0  0 20 25]
+ [11 15 20 15  0]
+ [16 20 25  0  0]],
+denominator=61, is_erdos=True
+numerator=
+[[ 56  63  63  66  96]
+ [  0  77  77  80 110]
+ [ 98   0   0 108 138]
+ [ 80  87  87  90   0]
+ [110 117 117   0   0]],
+denominator=344, is_erdos=True
+numerator=
+[[4 3 3 3 3]
+ [0 4 4 4 4]
+ [0 4 4 4 4]
+ [6 0 0 5 5]
+ [6 5 5 0 0]],
+denominator=16, is_erdos=True
+numerator=
+[[0 1 1 1 1]
+ [1 0 1 1 1]
+ [1 1 0 1 1]
+ [1 1 1 0 1]
+ [1 1 1 1 0]],
+denominator=4, is_erdos=True
+numerator=
+[[1 1 2 2 2]
+ [1 1 2 2 2]
+ [1 1 2 2 2]
+ [1 1 2 2 2]
+ [4 4 0 0 0]],
+denominator=8, is_erdos=True
+numerator=
+[[1 1 1 3 3]
+ [1 1 1 3 3]
+ [1 1 1 3 3]
+ [3 3 3 0 0]
+ [3 3 3 0 0]],
+denominator=9, is_erdos=True
+numerator=
+[[ 8  8  8  9  9]
+ [ 0 10 10 11 11]
+ [10  0 10 11 11]
+ [10 10  0 11 11]
+ [14 14 14  0  0]],
+denominator=42, is_erdos=True
+numerator=
+[[2 2 2 3 3]
+ [2 2 2 3 3]
+ [2 2 2 3 3]
+ [2 2 2 3 3]
+ [4 4 4 0 0]],
+denominator=12, is_erdos=True
+numerator=
+[[3 3 3 3 4]
+ [3 3 3 3 4]
+ [3 3 3 3 4]
+ [3 3 3 3 4]
+ [4 4 4 4 0]],
+denominator=16, is_erdos=True
+numerator=
+[[1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]],
+denominator=5, is_erdos=True
