@@ -71,7 +71,7 @@ class fracMatrix:
     def __str__(self):
         return f"numerator=\n{self.numerator},\ndenominator={self.denominator}, is_erdos={self.is_erdos}"
     def verify(self):
-        self.is_erdos = bool(np.sum(self.numerator**2) == maxTrace(self.numerator)*self.denominator)
+        self.is_erdos = (self.numerator >= 0).all() and bool(np.sum(self.numerator**2) == maxTrace(self.numerator)*self.denominator)
 
 def erdosify(perms):
     N = len(perms[0])
@@ -85,7 +85,7 @@ def erdosify(perms):
         E = linearCombination(sol, perms)
         numerator = E.perm_sum()
         frob_norm = np.sum(numerator**2)
-        is_erdos = (frob_norm == trace_along(numerator, perms[0])*denominator) and (frob_norm == maxTrace(numerator)*denominator)
+        is_erdos = (numerator >= 0).all() and (frob_norm == trace_along(numerator, perms[0])*denominator) and (frob_norm == maxTrace(numerator)*denominator)
         #if is_erdos: print(sol)
         return fracMatrix(numerator, int(denominator), bool(is_erdos), E)
     else:

@@ -51,7 +51,7 @@ def simple_average(perms):
     gcd = np.gcd.reduce(A.flatten())
     A //= gcd
     den = int(np.sum(A[0]))
-    return erdos_finder.fracMatrix(A, den, None, erdos_finder.linearCombination(np.ones(len(perms)), perms))
+    return erdos_finder.fracMatrix(A, den, None, erdos_finder.linearCombination(np.ones(len(perms), int), perms))
 
 def same_zeros(A, B):
     return ((A==0) == (B==0)).all()
@@ -104,11 +104,12 @@ else:
     erdoses = {}
 
 erdoses = {}
-skipee = [3670015, 4128767, 7598079, 7858175, 7860159, 7860223, 7864319, 8190975, 8191999, 8253374, 8253375, 8253439, 8255487, 8257535, 16510911, 16510975, 16515071]
-lost_but_skipped = [4126655, 4126719, 4127743, 7596031, 7725055, 7733247, 7858047]
 skipped = []
 basis_found = {}
+reserves = {}
+skipee = []
 basis_keys = [3319358, 3319359, 3319388, 3319389, 3319390, 3319391, 3319422, 3319423, 3319514, 3319515, 3319518, 3319519, 3319547, 3319550, 3319551, 3319774, 3319775, 3319807, 3320510, 3320511, 3321534, 3321535, 3321564, 3321565, 3321566, 3321567, 3321598, 3321599, 3321630, 3321631, 3321662, 3321663, 3321692, 3321693, 3321694, 3321695, 3321726, 3321727, 3321758, 3321759, 3321790, 3321791, 3321822, 3321823, 3321855, 3324670, 3324671, 3325694, 3325695, 3325758, 3325759, 3325822, 3325823, 3325918, 3325919, 3325951, 3335998, 3335999]
+reserves_keys = [1256030, 3336063, 3387293, 3387295, 3387326, 3387327, 3387391]
 
 from time import time
 start = time()
@@ -128,37 +129,36 @@ for i, n in enumerate(preps):
                 # Running the algorithm if simple average is not good enough
 
                 check = time()
-##                r = np.linalg.matrix_rank(erdos_finder.gram_matrix(support))
-##                for selection in itertools.combinations(support, r):
+                #  iterating through all linearly independent subsets of support
                 for indices in linearly_independent_comninations(erdos_finder.gram_matrix(support), False):
                     selection = [support[j] for j in indices]
                     E = erdos_finder.erdosify(selection)
                     if E and E.is_erdos:
-                        if not same_zeros(mat, E.numerator):
+                        if same_zeros(mat, E.numerator):
                             break
                         else:
                             reserve = E
                     elif E:
                         basis = E
-                    if time()-check > 6:
+                    if time()-check > 300 or (basis and time()-check > 6):
                         if reserve:
                             print(f"Skipping {i}. Falling back to reserves.")
                         elif basis:
                             print(f"Skipping {i}. Basis found.")
                         else:
-                            print(f"Skipping {i}. Non basis found")
+                            print(f"Skipping {i}. No basis found")
                             skipped.append(num_from_mat(mat))
                         break
-            if E and E.is_erdos:
+            if E and E.is_erdos and same_zeros(mat, E.numerator):
                 erdoses[n] = E
             elif reserve:
-                erdoses[n] = reserve
+                reserves[n] = reserve
             elif basis:
                 basis_found[n] = basis
     if i%10 == 0:
         print(f"{i}/{len(preps)}. {time()-start:.2f}s")
                 
-perdoses = [n for n, E in erdoses.items() if same_zeros(mat_from_num(n), E.numerator)]
+nperdoses = {n:E for n, E in erdoses.items() if not same_zeros(mat_from_num(n), E.numerator)}
 
 ##erdod[N] = erdoses
 ##with open("erdoses.pkl", mode="wb") as f:
@@ -176,187 +176,3 @@ def dict_minus(first, other=None):
             ret[n] = first[n]
     return ret
 
-##olds = [fracMatrix(numerator=array([[1, 4, 2, 2, 2],
-##       [2, 0, 3, 3, 3],
-##       [2, 0, 3, 3, 3],
-##       [2, 0, 3, 3, 3],
-##       [4, 7, 0, 0, 0]]), denominator=11, is_erdos=True, solution=None), fracMatrix(numerator=array([[ 2,  4,  4,  4,  4],
-##       [ 2,  4,  4,  4,  4],
-##       [ 3,  0,  5,  5,  5],
-##       [ 3,  0,  5,  5,  5],
-##       [ 8, 10,  0,  0,  0]]), denominator=18, is_erdos=True, solution=None), fracMatrix(numerator=array([[ 4,  4,  6,  6,  6],
-##       [ 4,  4,  6,  6,  6],
-##       [ 0,  5,  7,  7,  7],
-##       [ 5,  0,  7,  7,  7],
-##       [13, 13,  0,  0,  0]]), denominator=26, is_erdos=True, solution=None), fracMatrix(numerator=array([[2, 3, 3, 6, 6],
-##       [2, 3, 3, 6, 6],
-##       [4, 0, 0, 8, 8],
-##       [6, 7, 7, 0, 0],
-##       [6, 7, 7, 0, 0]]), denominator=20, is_erdos=True, solution=None), fracMatrix(numerator=array([[18, 18, 29, 44, 49],
-##       [18, 18, 29, 44, 49],
-##       [29, 29, 40,  0, 60],
-##       [44, 44,  0, 70,  0],
-##       [49, 49, 60,  0,  0]]), denominator=158, is_erdos=True, solution=None), fracMatrix(numerator=array([[ 5,  5,  8,  8, 13],
-##       [ 5,  5,  8,  8, 13],
-##       [ 5,  5,  8,  8, 13],
-##       [12, 12,  0, 15,  0],
-##       [12, 12, 15,  0,  0]]), denominator=39, is_erdos=True, solution=None), fracMatrix(numerator=array([[ 7, 11, 16, 11, 16],
-##       [11, 15,  0, 15, 20],
-##       [16,  0,  0, 20, 25],
-##       [11, 15, 20, 15,  0],
-##       [16, 20, 25,  0,  0]]), denominator=61, is_erdos=True, solution=None)]
-##
-##lost = {np.int64(4126655): fracMatrix(numerator=array([[1, 4, 2, 2, 2],
-##       [2, 0, 3, 3, 3],
-##       [2, 0, 3, 3, 3],
-##       [2, 0, 3, 3, 3],
-##       [4, 7, 0, 0, 0]]), denominator=11, is_erdos=True, solution=None), np.int64(4126719): fracMatrix(numerator=array([[ 2,  4,  4,  4,  4],
-##       [ 2,  4,  4,  4,  4],
-##       [ 3,  0,  5,  5,  5],
-##       [ 3,  0,  5,  5,  5],
-##       [ 8, 10,  0,  0,  0]]), denominator=18, is_erdos=True, solution=None), np.int64(4127743): fracMatrix(numerator=array([[ 4,  4,  6,  6,  6],
-##       [ 4,  4,  6,  6,  6],
-##       [ 0,  5,  7,  7,  7],
-##       [ 5,  0,  7,  7,  7],
-##       [13, 13,  0,  0,  0]]), denominator=26, is_erdos=True, solution=None), np.int64(7596031): fracMatrix(numerator=array([[2, 3, 3, 6, 6],
-##       [2, 3, 3, 6, 6],
-##       [4, 0, 0, 8, 8],
-##       [6, 7, 7, 0, 0],
-##       [6, 7, 7, 0, 0]]), denominator=20, is_erdos=True, solution=None), np.int64(7725055): fracMatrix(numerator=array([[18, 18, 29, 44, 49],
-##       [18, 18, 29, 44, 49],
-##       [29, 29, 40,  0, 60],
-##       [44, 44,  0, 70,  0],
-##       [49, 49, 60,  0,  0]]), denominator=158, is_erdos=True, solution=None), np.int64(7733247): fracMatrix(numerator=array([[ 5,  5,  8,  8, 13],
-##       [ 5,  5,  8,  8, 13],
-##       [ 5,  5,  8,  8, 13],
-##       [12, 12,  0, 15,  0],
-##       [12, 12, 15,  0,  0]]), denominator=39, is_erdos=True, solution=None), np.int64(7858047): fracMatrix(numerator=array([[ 7, 11, 16, 11, 16],
-##       [11, 15,  0, 15, 20],
-##       [16,  0,  0, 20, 25],
-##       [11, 15, 20, 15,  0],
-##       [16, 20, 25,  0,  0]]), denominator=61, is_erdos=True, solution=None), np.int64(1260380): fracMatrix(numerator=array([[ 0,  0,  2,  3,  5],
-##       [ 0,  2,  0,  3,  5],
-##       [ 0,  3,  3,  4,  0],
-##       [ 0,  5,  5,  0,  0],
-##       [10,  0,  0,  0,  0]]), denominator=10, is_erdos=True, solution=None), np.int64(1260510): fracMatrix(numerator=array([[ 0,  2,  2,  5,  9],
-##       [ 0,  2,  2,  5,  9],
-##       [ 0,  5,  5,  8,  0],
-##       [ 0,  9,  9,  0,  0],
-##       [18,  0,  0,  0,  0]]), denominator=18, is_erdos=True, solution=None), np.int64(1272668): fracMatrix(numerator=array([[ 0,  0,  7,  5,  5],
-##       [ 0,  5,  0,  6,  6],
-##       [ 0,  5,  0,  6,  6],
-##       [ 0,  7, 10,  0,  0],
-##       [17,  0,  0,  0,  0]]), denominator=17, is_erdos=True, solution=None), np.int64(1272670): fracMatrix(numerator=array([[0, 1, 3, 2, 2],
-##       [0, 2, 0, 3, 3],
-##       [0, 2, 0, 3, 3],
-##       [0, 3, 5, 0, 0],
-##       [8, 0, 0, 0, 0]]), denominator=8, is_erdos=True, solution=None), np.int64(3249948): fracMatrix(numerator=array([[0, 0, 0, 1, 1],
-##       [0, 0, 0, 1, 1],
-##       [0, 0, 2, 0, 0],
-##       [1, 1, 0, 0, 0],
-##       [1, 1, 0, 0, 0]]), denominator=2, is_erdos=True, solution=None), np.int64(3324729): fracMatrix(numerator=array([[2, 0, 0, 5, 7],
-##       [2, 0, 0, 5, 7],
-##       [0, 5, 5, 4, 0],
-##       [5, 0, 9, 0, 0],
-##       [5, 9, 0, 0, 0]]), denominator=14, is_erdos=True, solution=None), np.int64(3324764): fracMatrix(numerator=array([[0, 0, 2, 3, 5],
-##       [0, 2, 0, 3, 5],
-##       [0, 3, 3, 4, 0],
-##       [5, 0, 5, 0, 0],
-##       [5, 5, 0, 0, 0]]), denominator=10, is_erdos=True, solution=None), np.int64(3324797): fracMatrix(numerator=array([[ 2,  0,  6, 11, 19],
-##       [ 2,  6,  0, 11, 19],
-##       [ 0, 11, 11, 16,  0],
-##       [17,  0, 21,  0,  0],
-##       [17, 21,  0,  0,  0]]), denominator=38, is_erdos=True, solution=None), np.int64(3324894): fracMatrix(numerator=array([[0, 2, 2, 5, 9],
-##       [0, 2, 2, 5, 9],
-##       [0, 5, 5, 8, 0],
-##       [9, 0, 9, 0, 0],
-##       [9, 9, 0, 0, 0]]), denominator=18, is_erdos=True, solution=None), np.int64(3324927): fracMatrix(numerator=array([[ 2,  6,  6, 17, 31],
-##       [ 2,  6,  6, 17, 31],
-##       [ 0, 17, 17, 28,  0],
-##       [29,  0, 33,  0,  0],
-##       [29, 33,  0,  0,  0]]), denominator=62, is_erdos=True, solution=None), np.int64(3335135): fracMatrix(numerator=array([[ 4,  8,  8,  9,  9],
-##       [ 0,  9,  9, 10, 10],
-##       [ 0,  0,  0, 19, 19],
-##       [17,  0, 21,  0,  0],
-##       [17, 21,  0,  0,  0]]), denominator=38, is_erdos=True, solution=None), np.int64(3337052): fracMatrix(numerator=array([[ 0,  0, 11,  7,  7],
-##       [ 0,  7,  0,  9,  9],
-##       [ 0,  7,  0,  9,  9],
-##       [11,  0, 14,  0,  0],
-##       [14, 11,  0,  0,  0]]), denominator=25, is_erdos=True, solution=None), np.int64(3337053): fracMatrix(numerator=array([[1, 0, 3, 2, 2],
-##       [0, 2, 0, 3, 3],
-##       [0, 2, 0, 3, 3],
-##       [3, 0, 5, 0, 0],
-##       [4, 4, 0, 0, 0]]), denominator=8, is_erdos=True, solution=None), np.int64(3337054): fracMatrix(numerator=array([[ 0,  5, 21, 12, 12],
-##       [ 0, 12,  0, 19, 19],
-##       [ 0, 12,  0, 19, 19],
-##       [21,  0, 29,  0,  0],
-##       [29, 21,  0,  0,  0]]), denominator=50, is_erdos=True, solution=None), np.int64(3388218): fracMatrix(numerator=array([[ 0,  4,  0,  5,  9],
-##       [ 4,  0,  0,  5,  9],
-##       [ 0,  0, 10,  8,  0],
-##       [ 5,  5,  8,  0,  0],
-##       [ 9,  9,  0,  0,  0]]), denominator=18, is_erdos=True, solution=None), np.int64(3388283): fracMatrix(numerator=array([[ 4,  4,  0,  9, 17],
-##       [ 4,  4,  0,  9, 17],
-##       [ 0,  0, 18, 16,  0],
-##       [ 9,  9, 16,  0,  0],
-##       [17, 17,  0,  0,  0]]), denominator=34, is_erdos=True, solution=None), np.int64(3400575): fracMatrix(numerator=array([[ 4,  4, 20,  9,  9],
-##       [ 9,  9,  0, 14, 14],
-##       [ 0,  0,  0, 23, 23],
-##       [10, 10, 26,  0,  0],
-##       [23, 23,  0,  0,  0]]), denominator=46, is_erdos=True, solution=None), np.int64(3403644): fracMatrix(numerator=array([[0, 0, 6, 4, 4],
-##       [2, 2, 0, 5, 5],
-##       [2, 2, 0, 5, 5],
-##       [3, 3, 8, 0, 0],
-##       [7, 7, 0, 0, 0]]), denominator=14, is_erdos=True, solution=None), np.int64(3403676): fracMatrix(numerator=array([[ 0,  0,  8,  9,  9],
-##       [ 0,  0,  8,  9,  9],
-##       [ 5,  5,  0,  8,  8],
-##       [ 8,  8, 10,  0,  0],
-##       [13, 13,  0,  0,  0]]), denominator=26, is_erdos=True, solution=None), np.int64(3404703): fracMatrix(numerator=array([[15, 15, 14, 24, 24],
-##       [ 0,  0, 24, 34, 34],
-##       [ 0,  0, 24, 34, 34],
-##       [31, 31, 30,  0,  0],
-##       [46, 46,  0,  0,  0]]), denominator=92, is_erdos=True, solution=None), np.int64(3554998): fracMatrix(numerator=array([[ 0,  5,  4,  0,  9],
-##       [ 5,  0,  4,  0,  9],
-##       [ 4,  4,  3,  7,  0],
-##       [ 0,  0,  7, 11,  0],
-##       [ 9,  9,  0,  0,  0]]), denominator=18, is_erdos=True, solution=None), np.int64(3555063): fracMatrix(numerator=array([[ 5,  5,  6,  0, 16],
-##       [ 5,  5,  6,  0, 16],
-##       [ 6,  6,  7, 13,  0],
-##       [ 0,  0, 13, 19,  0],
-##       [16, 16,  0,  0,  0]]), denominator=32, is_erdos=True, solution=None), np.int64(3555067): fracMatrix(numerator=array([[2, 2, 0, 3, 7],
-##       [2, 2, 3, 0, 7],
-##       [3, 3, 4, 4, 0],
-##       [0, 0, 7, 7, 0],
-##       [7, 7, 0, 0, 0]]), denominator=14, is_erdos=True, solution=None), np.int64(4126654): fracMatrix(numerator=array([[ 0, 13,  7,  7,  7],
-##       [ 7,  0,  9,  9,  9],
-##       [ 7,  0,  9,  9,  9],
-##       [ 7,  0,  9,  9,  9],
-##       [13, 21,  0,  0,  0]]), denominator=34, is_erdos=True, solution=None), np.int64(7595839): fracMatrix(numerator=array([[1, 3, 3, 3, 3],
-##       [3, 0, 0, 5, 5],
-##       [3, 0, 0, 5, 5],
-##       [3, 5, 5, 0, 0],
-##       [3, 5, 5, 0, 0]]), denominator=13, is_erdos=True, solution=None), np.int64(7720894): fracMatrix(numerator=array([[0, 1, 2, 2, 2],
-##       [1, 0, 2, 2, 2],
-##       [2, 2, 0, 0, 3],
-##       [2, 2, 0, 3, 0],
-##       [2, 2, 3, 0, 0]]), denominator=7, is_erdos=True, solution=None), np.int64(7720959): fracMatrix(numerator=array([[1, 1, 3, 3, 3],
-##       [1, 1, 3, 3, 3],
-##       [3, 3, 0, 0, 5],
-##       [3, 3, 0, 5, 0],
-##       [3, 3, 5, 0, 0]]), denominator=11, is_erdos=True, solution=None), np.int64(7722844): fracMatrix(numerator=array([[0, 0, 1, 1, 1],
-##       [0, 1, 0, 1, 1],
-##       [1, 0, 1, 0, 1],
-##       [1, 1, 0, 1, 0],
-##       [1, 1, 1, 0, 0]]), denominator=3, is_erdos=True, solution=None)}    
-
-
-# Solution with negative coefficients
-##7725055
-##numerator=
-##[[18 18 29 44 49]
-## [18 18 29 44 49]
-## [29 29 40  0 60]
-## [44 44  0 70  0]
-## [49 49 60  0  0]],
-##denominator=158, is_erdos=True
-##array([18, 11, -3, -2, -6, 18, -2, 31, 18, 29, -3, 49])
-##[array([0, 1, 4, 3, 2]), array([0, 2, 4, 3, 1]), array([0, 3, 4, 1, 2]), array([0, 4, 1, 3, 2]), array([0, 4, 2, 3, 1]), array([1, 2, 4, 3, 0]), array([2, 3, 4, 0, 1]), array([2, 4, 1, 3, 0]), array([3, 0, 4, 1, 2]), array([3, 4, 0, 1, 2]), array([3, 4, 2, 0, 1]), array([4, 3, 2, 0, 1])]

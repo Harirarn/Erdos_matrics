@@ -1777,6 +1777,13 @@ numerator=
  [108 113   0   0   0]],
 denominator=221, is_erdos=True
 numerator=
+[[ 5  5 14 24 24]
+ [ 5  5 14 24 24]
+ [ 5  5 14 24 24]
+ [21 21 30  0  0]
+ [36 36  0  0  0]],
+denominator=72, is_erdos=True
+numerator=
 [[ 0  5  4  0  9]
  [ 5  0  4  0  9]
  [ 4  4  3  7  0]
@@ -2526,6 +2533,13 @@ numerator=
  [422 450   0   0   0]],
 denominator=872, is_erdos=True
 numerator=
+[[ 26  44  59  59  94]
+ [ 26  44  59  59  94]
+ [ 26  44  59  59  94]
+ [ 72   0 105 105   0]
+ [132 150   0   0   0]],
+denominator=282, is_erdos=True
+numerator=
 [[0 0 1 1 2]
  [0 0 1 1 2]
  [1 1 1 1 0]
@@ -2560,6 +2574,13 @@ numerator=
  [ 9 10 15 15  0]
  [24 25  0  0  0]],
 denominator=49, is_erdos=True
+numerator=
+[[1 1 3 3 8]
+ [1 1 3 3 8]
+ [3 3 5 5 0]
+ [3 3 5 5 0]
+ [8 8 0 0 0]],
+denominator=16, is_erdos=True
 numerator=
 [[0 0 2 2 2]
  [1 1 0 2 2]
@@ -2624,6 +2645,13 @@ numerator=
  [52 55  0  0  0]],
 denominator=107, is_erdos=True
 numerator=
+[[ 9  9 22 32 32]
+ [ 9  9 22 32 32]
+ [17 17 30  0 40]
+ [17 17 30 40  0]
+ [52 52  0  0  0]],
+denominator=104, is_erdos=True
+numerator=
 [[15 15 11 11 16]
  [ 0  0 21 21 26]
  [ 0  0 21 21 26]
@@ -2673,12 +2701,33 @@ numerator=
  [154 174   0   0   0]],
 denominator=328, is_erdos=True
 numerator=
+[[10 20 22 22 32]
+ [15  0 27 27 37]
+ [15  0 27 27 37]
+ [18 28 30 30  0]
+ [48 58  0  0  0]],
+denominator=106, is_erdos=True
+numerator=
 [[20 20 33 33 48]
  [ 0 25 38 38 53]
  [25  0 38 38 53]
  [32 32 45 45  0]
  [77 77  0  0  0]],
 denominator=154, is_erdos=True
+numerator=
+[[15 20 33 33 48]
+ [15 20 33 33 48]
+ [20  0 38 38 53]
+ [27 32 45 45  0]
+ [72 77  0  0  0]],
+denominator=149, is_erdos=True
+numerator=
+[[ 5  5 11 11 16]
+ [ 5  5 11 11 16]
+ [ 5  5 11 11 16]
+ [ 9  9 15 15  0]
+ [24 24  0  0  0]],
+denominator=48, is_erdos=True
 numerator=
 [[3 3 2 2 2]
  [3 3 2 2 2]
@@ -2694,12 +2743,33 @@ numerator=
  [27 27  0  0  0]],
 denominator=54, is_erdos=True
 numerator=
+[[11 16 14 14 14]
+ [11 16 14 14 14]
+ [15  0 18 18 18]
+ [ 0  0 23 23 23]
+ [32 37  0  0  0]],
+denominator=69, is_erdos=True
+numerator=
+[[3 3 4 4 4]
+ [3 3 4 4 4]
+ [3 3 4 4 4]
+ [0 0 6 6 6]
+ [9 9 0 0 0]],
+denominator=18, is_erdos=True
+numerator=
 [[ 0 13  7  7  7]
  [ 7  0  9  9  9]
  [ 7  0  9  9  9]
  [ 7  0  9  9  9]
  [13 21  0  0  0]],
 denominator=34, is_erdos=True
+numerator=
+[[1 4 2 2 2]
+ [2 0 3 3 3]
+ [2 0 3 3 3]
+ [2 0 3 3 3]
+ [4 7 0 0 0]],
+denominator=11, is_erdos=True
 numerator=
 [[0 1 1 1 1]
  [0 1 1 1 1]
@@ -2714,6 +2784,34 @@ numerator=
  [11  0 15 15 15]
  [26 30  0  0  0]],
 denominator=56, is_erdos=True
+numerator=
+[[ 2  4  4  4  4]
+ [ 2  4  4  4  4]
+ [ 3  0  5  5  5]
+ [ 3  0  5  5  5]
+ [ 8 10  0  0  0]],
+denominator=18, is_erdos=True
+numerator=
+[[ 4  4  6  6  6]
+ [ 4  4  6  6  6]
+ [ 0  5  7  7  7]
+ [ 5  0  7  7  7]
+ [13 13  0  0  0]],
+denominator=26, is_erdos=True
+numerator=
+[[ 3  4  6  6  6]
+ [ 3  4  6  6  6]
+ [ 3  4  6  6  6]
+ [ 4  0  7  7  7]
+ [12 13  0  0  0]],
+denominator=25, is_erdos=True
+numerator=
+[[1 1 2 2 2]
+ [1 1 2 2 2]
+ [1 1 2 2 2]
+ [1 1 2 2 2]
+ [4 4 0 0 0]],
+denominator=8, is_erdos=True
 numerator=
 [[0 2 2 2 2]
  [2 0 0 3 3]
@@ -2778,12 +2876,40 @@ numerator=
  [20 21 21  0  0]],
 denominator=62, is_erdos=True
 numerator=
+[[2 3 3 6 6]
+ [2 3 3 6 6]
+ [4 0 0 8 8]
+ [6 7 7 0 0]
+ [6 7 7 0 0]],
+denominator=20, is_erdos=True
+numerator=
 [[0 1 1 2 2]
  [1 0 1 2 2]
  [1 1 0 2 2]
  [2 2 2 0 0]
  [2 2 2 0 0]],
 denominator=6, is_erdos=True
+numerator=
+[[ 3  4  4  9  9]
+ [ 4  0  5 10 10]
+ [ 4  5  0 10 10]
+ [ 9 10 10  0  0]
+ [ 9 10 10  0  0]],
+denominator=29, is_erdos=True
+numerator=
+[[ 3  3  4  9  9]
+ [ 3  3  4  9  9]
+ [ 4  4  0 10 10]
+ [ 9  9 10  0  0]
+ [ 9  9 10  0  0]],
+denominator=28, is_erdos=True
+numerator=
+[[1 1 1 3 3]
+ [1 1 1 3 3]
+ [1 1 1 3 3]
+ [3 3 3 0 0]
+ [3 3 3 0 0]],
+denominator=9, is_erdos=True
 numerator=
 [[3 0 5 5 5]
  [0 0 6 6 6]
@@ -2918,6 +3044,13 @@ numerator=
  [49 55 60  0  0]],
 denominator=164, is_erdos=True
 numerator=
+[[18 18 29 44 49]
+ [18 18 29 44 49]
+ [29 29 40  0 60]
+ [44 44  0 70  0]
+ [49 49 60  0  0]],
+denominator=158, is_erdos=True
+numerator=
 [[ 0 15 11 11 16]
  [15  0 11 11 16]
  [ 0  0 16 16 21]
@@ -2953,138 +3086,19 @@ numerator=
  [24 34 30  0  0]],
 denominator=88, is_erdos=True
 numerator=
-[[15 20 24 24 39]
- [15 20 24 24 39]
- [20  0 29 29 44]
- [36 41  0 45  0]
- [36 41 45  0  0]],
-denominator=122, is_erdos=True
-numerator=
-[[ 0  8 11  8 11]
- [ 8  9  0  9 12]
- [11  0  0 12 15]
- [ 8  9 12  9  0]
- [11 12 15  0  0]],
-denominator=38, is_erdos=True
-numerator=
-[[ 0 28 28 29 39]
- [ 0 28 28 29 39]
- [42  0  0 36 46]
- [36 29 29 30  0]
- [46 39 39  0  0]],
-denominator=124, is_erdos=True
-numerator=
-[[ 0  7  7  8 11]
- [ 7  0  7  8 11]
- [ 7  7  0  8 11]
- [ 8  8  8  9  0]
- [11 11 11  0  0]],
-denominator=33, is_erdos=True
-numerator=
-[[ 5  5 14 24 24]
- [ 5  5 14 24 24]
- [ 5  5 14 24 24]
- [21 21 30  0  0]
- [36 36  0  0  0]],
-denominator=72, is_erdos=True
-numerator=
-[[ 26  44  59  59  94]
- [ 26  44  59  59  94]
- [ 26  44  59  59  94]
- [ 72   0 105 105   0]
- [132 150   0   0   0]],
-denominator=282, is_erdos=True
-numerator=
-[[1 1 3 3 8]
- [1 1 3 3 8]
- [3 3 5 5 0]
- [3 3 5 5 0]
- [8 8 0 0 0]],
-denominator=16, is_erdos=True
-numerator=
-[[ 9  9 22 32 32]
- [ 9  9 22 32 32]
- [17 17 30  0 40]
- [17 17 30 40  0]
- [52 52  0  0  0]],
-denominator=104, is_erdos=True
-numerator=
-[[10 20 22 22 32]
- [15  0 27 27 37]
- [15  0 27 27 37]
- [18 28 30 30  0]
- [48 58  0  0  0]],
-denominator=106, is_erdos=True
-numerator=
-[[15 20 33 33 48]
- [15 20 33 33 48]
- [20  0 38 38 53]
- [27 32 45 45  0]
- [72 77  0  0  0]],
-denominator=149, is_erdos=True
-numerator=
-[[11 16 14 14 14]
- [11 16 14 14 14]
- [15  0 18 18 18]
- [ 0  0 23 23 23]
- [32 37  0  0  0]],
-denominator=69, is_erdos=True
-numerator=
-[[3 3 4 4 4]
- [3 3 4 4 4]
- [3 3 4 4 4]
- [0 0 6 6 6]
- [9 9 0 0 0]],
-denominator=18, is_erdos=True
-numerator=
-[[1 4 2 2 2]
- [2 0 3 3 3]
- [2 0 3 3 3]
- [2 0 3 3 3]
- [4 7 0 0 0]],
-denominator=11, is_erdos=True
-numerator=
-[[ 2  4  4  4  4]
- [ 2  4  4  4  4]
- [ 3  0  5  5  5]
- [ 3  0  5  5  5]
- [ 8 10  0  0  0]],
-denominator=18, is_erdos=True
-numerator=
-[[ 4  4  6  6  6]
- [ 4  4  6  6  6]
- [ 0  5  7  7  7]
- [ 5  0  7  7  7]
- [13 13  0  0  0]],
-denominator=26, is_erdos=True
-numerator=
-[[2 3 3 6 6]
- [2 3 3 6 6]
- [4 0 0 8 8]
- [6 7 7 0 0]
- [6 7 7 0 0]],
-denominator=20, is_erdos=True
-numerator=
-[[ 3  4  4  9  9]
- [ 4  0  5 10 10]
- [ 4  5  0 10 10]
- [ 9 10 10  0  0]
- [ 9 10 10  0  0]],
-denominator=29, is_erdos=True
-numerator=
-[[18 18 29 44 49]
- [18 18 29 44 49]
- [29 29 40  0 60]
- [44 44  0 70  0]
- [49 49 60  0  0]],
-denominator=158, is_erdos=True
-numerator=
 [[20 20 24 24 39]
  [ 0 25 29 29 44]
  [25  0 29 29 44]
  [41 41  0 45  0]
  [41 41 45  0  0]],
 denominator=127, is_erdos=True
+numerator=
+[[15 20 24 24 39]
+ [15 20 24 24 39]
+ [20  0 29 29 44]
+ [36 41  0 45  0]
+ [36 41 45  0  0]],
+denominator=122, is_erdos=True
 numerator=
 [[ 5  5  8  8 13]
  [ 5  5  8  8 13]
@@ -3093,12 +3107,26 @@ numerator=
  [12 12 15  0  0]],
 denominator=39, is_erdos=True
 numerator=
+[[ 0  8 11  8 11]
+ [ 8  9  0  9 12]
+ [11  0  0 12 15]
+ [ 8  9 12  9  0]
+ [11 12 15  0  0]],
+denominator=38, is_erdos=True
+numerator=
 [[ 7 11 16 11 16]
  [11 15  0 15 20]
  [16  0  0 20 25]
  [11 15 20 15  0]
  [16 20 25  0  0]],
 denominator=61, is_erdos=True
+numerator=
+[[ 0 28 28 29 39]
+ [ 0 28 28 29 39]
+ [42  0  0 36 46]
+ [36 29 29 30  0]
+ [46 39 39  0  0]],
+denominator=124, is_erdos=True
 numerator=
 [[ 56  63  63  66  96]
  [  0  77  77  80 110]
@@ -3107,6 +3135,41 @@ numerator=
  [110 117 117   0   0]],
 denominator=344, is_erdos=True
 numerator=
+[[14 21 21 22 32]
+ [14 21 21 22 32]
+ [28  0  0 36 46]
+ [22 29 29 30  0]
+ [32 39 39  0  0]],
+denominator=110, is_erdos=True
+numerator=
+[[ 0  7  7  8 11]
+ [ 7  0  7  8 11]
+ [ 7  7  0  8 11]
+ [ 8  8  8  9  0]
+ [11 11 11  0  0]],
+denominator=33, is_erdos=True
+numerator=
+[[21 28 28 33 48]
+ [28  0 35 40 55]
+ [28 35  0 40 55]
+ [33 40 40 45  0]
+ [48 55 55  0  0]],
+denominator=158, is_erdos=True
+numerator=
+[[21 21 28 33 48]
+ [21 21 28 33 48]
+ [28 28  0 40 55]
+ [33 33 40 45  0]
+ [48 48 55  0  0]],
+denominator=151, is_erdos=True
+numerator=
+[[ 7  7  7 11 16]
+ [ 7  7  7 11 16]
+ [ 7  7  7 11 16]
+ [11 11 11 15  0]
+ [16 16 16  0  0]],
+denominator=48, is_erdos=True
+numerator=
 [[4 3 3 3 3]
  [0 4 4 4 4]
  [0 4 4 4 4]
@@ -3114,26 +3177,40 @@ numerator=
  [6 5 5 0 0]],
 denominator=16, is_erdos=True
 numerator=
-[[0 1 1 1 1]
- [1 0 1 1 1]
- [1 1 0 1 1]
- [1 1 1 0 1]
- [1 1 1 1 0]],
-denominator=4, is_erdos=True
+[[ 8  9  9  9  9]
+ [ 8  9  9  9  9]
+ [ 0 11 11 11 11]
+ [14  0  0 15 15]
+ [14 15 15  0  0]],
+denominator=44, is_erdos=True
 numerator=
-[[1 1 2 2 2]
- [1 1 2 2 2]
- [1 1 2 2 2]
- [1 1 2 2 2]
- [4 4 0 0 0]],
-denominator=8, is_erdos=True
+[[2 3 3 3 3]
+ [2 3 3 3 3]
+ [2 3 3 3 3]
+ [4 0 0 5 5]
+ [4 5 5 0 0]],
+denominator=14, is_erdos=True
 numerator=
-[[1 1 1 3 3]
- [1 1 1 3 3]
- [1 1 1 3 3]
- [3 3 3 0 0]
- [3 3 3 0 0]],
-denominator=9, is_erdos=True
+[[ 0 10 14 11 11]
+ [10  0 14 11 11]
+ [11 11  0 12 12]
+ [11 11  0 12 12]
+ [14 14 18  0  0]],
+denominator=46, is_erdos=True
+numerator=
+[[ 6  8 12  9  9]
+ [ 8  0 14 11 11]
+ [ 9 11  0 12 12]
+ [ 9 11  0 12 12]
+ [12 14 18  0  0]],
+denominator=44, is_erdos=True
+numerator=
+[[2 2 4 3 3]
+ [2 2 4 3 3]
+ [3 3 0 4 4]
+ [3 3 0 4 4]
+ [4 4 6 0 0]],
+denominator=14, is_erdos=True
 numerator=
 [[ 8  8  8  9  9]
  [ 0 10 10 11 11]
@@ -3142,12 +3219,54 @@ numerator=
  [14 14 14  0  0]],
 denominator=42, is_erdos=True
 numerator=
+[[ 6  8  8  9  9]
+ [ 6  8  8  9  9]
+ [ 8  0 10 11 11]
+ [ 8 10  0 11 11]
+ [12 14 14  0  0]],
+denominator=40, is_erdos=True
+numerator=
+[[ 6  6  8  9  9]
+ [ 6  6  8  9  9]
+ [ 6  6  8  9  9]
+ [ 8  8  0 11 11]
+ [12 12 14  0  0]],
+denominator=38, is_erdos=True
+numerator=
 [[2 2 2 3 3]
  [2 2 2 3 3]
  [2 2 2 3 3]
  [2 2 2 3 3]
  [4 4 4 0 0]],
 denominator=12, is_erdos=True
+numerator=
+[[0 1 1 1 1]
+ [1 0 1 1 1]
+ [1 1 0 1 1]
+ [1 1 1 0 1]
+ [1 1 1 1 0]],
+denominator=4, is_erdos=True
+numerator=
+[[3 4 4 4 4]
+ [4 0 5 5 5]
+ [4 5 0 5 5]
+ [4 5 5 0 5]
+ [4 5 5 5 0]],
+denominator=19, is_erdos=True
+numerator=
+[[3 3 4 4 4]
+ [3 3 4 4 4]
+ [4 4 0 5 5]
+ [4 4 5 0 5]
+ [4 4 5 5 0]],
+denominator=18, is_erdos=True
+numerator=
+[[3 3 3 4 4]
+ [3 3 3 4 4]
+ [3 3 3 4 4]
+ [4 4 4 0 5]
+ [4 4 4 5 0]],
+denominator=17, is_erdos=True
 numerator=
 [[3 3 3 3 4]
  [3 3 3 3 4]
