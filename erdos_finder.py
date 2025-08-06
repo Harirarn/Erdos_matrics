@@ -1,41 +1,26 @@
 import numpy as np
 import itertools
 from dataclasses import dataclass
+import functools
 
 N = 5
 
-def gram(parms):
-    parms
+@functools.lru_cache()
+def permutations_np(N):
+    return [np.array(par) for par in itertools.permutations(np.identity(N, dtype=int))]
 
-identity_np = np.identity(N, dtype=int)
-identity_lis = np.arange(N)
+@functools.lru_cache()
+def permutations_lis(N):
+    return [np.array(par) for par in itertools.permutations(np.arange(N))]
 
-permutations_np = [np.array(par) for par in itertools.permutations(identity_np)]
-permutations_lis = [np.array(par) for par in itertools.permutations(identity_lis)]
-
-other_permutations = permutations_np[1:]
-
-def maxTrace(A, permlist=permutations_lis):
+def trace_along(A, perm):
+    return sum(A[i, p] for i, p  in enumerate(perm))
+def allTrace(A, permlist=None):
+    if permlist is None: permlist = permutations_lis(len(A[0]))
+    return np.array([trace_along(A, perm) for perm in permlist])
+def maxTrace(A, permlist=None):
     """ Evaluates the maximum across trace of matrices with rows permuted."""
-    return max(sum(A[i, perm[i]] for i in range(N)) for perm in permlist)
-
-
-def splTrace(A):
-    """ A heuristic function which helps in avoiding calculating maxTrace. Not much saving for N <= 4"""
-    u = len(A)
-    B = A.copy()
-    ret = 0
-    for i in range(u): #Iteratively finds the max entry and removes its column and row. Adds all these entries up.
-        max_entry = max(B.flat)
-        ret += max_entry
-        indices = np.where(B==max_entry)
-        maxi, maxj = indices[0][0], indices[1][0]
-        for j in range(u):
-            B[maxi, j] = B[j, maxj] = 0
-    return ret
-
-max_degree = (N-1)**2+1
-max_degree = 2
+    return max(allTrace(A, permlist))
 
 def gram_matrix(A, B = None):
     if B is None: B = A
@@ -48,6 +33,7 @@ class linearCombination:
     elements: list
 
     def perm_sum(self):
+        N = len(self.elements[0])
         ret_matrix = np.zeros((N, N), dtype = int)
         for coeff, perm in zip(self.coefficients, self.elements):
             for i in range(len(perm)):
@@ -57,7 +43,7 @@ class linearCombination:
 
 @dataclass
 class fracMatrix:
-    numerator: any
+    numerator: np.array
     denominator: int
     is_erdos: bool = None
     solution: linearCombination = None
@@ -74,6 +60,7 @@ class fracMatrix:
         self.is_erdos = (self.numerator >= 0).all() and bool(np.sum(self.numerator**2) == maxTrace(self.numerator)*self.denominator)
 
 def erdosify(perms):
+    """ For a given list of LI permutation matrices, finds an Erdos matrix in their linear span."""
     N = len(perms[0])
     gram = gram_matrix(perms)
     if np.linalg.det(gram) >= 0.1:
@@ -84,28 +71,17 @@ def erdosify(perms):
         denominator = sum(sol)
         E = linearCombination(sol, perms)
         numerator = E.perm_sum()
+        if (d:=np.gcd.reduce(numerator.flat)) != 1:
+            numerator //= d
+            denominator //= d
         frob_norm = np.sum(numerator**2)
         is_erdos = (numerator >= 0).all() and (frob_norm == trace_along(numerator, perms[0])*denominator) and (frob_norm == maxTrace(numerator)*denominator)
-        #if is_erdos: print(sol)
         return fracMatrix(numerator, int(denominator), bool(is_erdos), E)
     else:
         return False
         
-
-
-##for k in range(max_degree):
-##    for selection in itertools.combinations(permutations_lis[1:], k):
-##        perms = list(selection)
-##        perms.append(identity_lis)
-##        erdosify(perms)
-
-def trace_along(A, perm):
-    return sum(A[i, p] for i, p  in enumerate(perm))
-
-def allTrace(A, permlist=permutations_lis):
-    return np.array([trace_along(A, perm) for perm in permlist])
-
 def perm_format(perm):
+    """ Returns the cycle notation of a permutation. 0 is still the first index."""
     remaining = list(range(len(perm)-1, -1, -1))
     ret = []
     current = []
@@ -123,14 +99,15 @@ def perm_format(perm):
     return ret
 
 def preservers(perm, other = None):
+    N = len(perm)
     if other is None: other = perm
-    for x in permutations_np:
-        for y in permutations_np:
-            if np.all(x@perm@y == other):
-                yield (x, y)
+    for x, y in itertools.product(permutations_np(N), repeat=2):
+        if (perm[np.ix_(x, y)] == other).all():
+            yield (x, y)
 
-def supporting_permutations(matrix, permlist=permutations_lis):
+def supporting_permutations(matrix, permlist=None):
     """ Returns the list of permutations that for which all entries in matrix is non-zero"""
+    if permlist is None: permlist = permutations_lis(len(matrix[0]))
     return [perm for perm in permlist if 0 not in [matrix[i, p] for i, p  in enumerate(perm)]]
 
 def comb(n, r):
@@ -141,7 +118,8 @@ def comb(n, r):
     return num // den
 
 def perm_format_from_matrix(pnp):
-    for pl, pn in zip(permutations_lis, permutations_np):
+    N = pnp[0]
+    for pl, pn in zip(permutations_lis(N), permutations_np(N)):
         if (pn == pnp).all():
             return perm_format(pl)
 
@@ -151,7 +129,7 @@ if __name__ == "__main__":
         G = fracMatrix(np.array([[3,0,4,7],[4,5,5,0],[4,5,5,0],[3,4,0,7]]),14,True)
         H = fracMatrix(np.array([[2,2,2,3],[2,2,2,3],[3,3,3,0],[2,2,2,3]]),9,True)
         at = allTrace(F.numerator)
-        f = [i for i,j in zip(permutations_lis, (at == max(at))) if j]
+        f = [i for i,j in zip(permutations_lis(N), (at == max(at))) if j]
         sup = supporting_permutations(F)
         ex = 2
         for selection in itertools.combinations(f[:ex]+f[ex:], 5):
@@ -164,6 +142,14 @@ if __name__ == "__main__":
                 print(E)
     elif N == 5:
         T = np.array([[0,0,0,1,1], [0,0,1,1,1], [0,1,1,0,1], [1,1,1,1,0], [1,1,1,0,1]])
+        permset = [np.array([0,2,4,3,1]),
+                   np.array([1,4,2,3,0]),
+                   np.array([2,1,4,3,0]),
+                   np.array([3,4,2,0,1]),
+                   np.array([4,3,0,2,1]),
+                   np.array([4,3,1,2,0]),
+            ]
+        E = erdosify(permset)
     elif N == 6:
         T = np.array([[1,1,0,0,0,0],
                       [1,1,1,0,0,0],
