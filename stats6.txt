@@ -10,8 +10,8 @@ Greater outer trace and smaller skeleton: 37
 All 3 reasons: 8
 
 Discounting the equivalence under transposition...
-Classes of admissible skeletons are: 34172
-Classes of Erdos matrices are: 25368
+Classes of admissible skeletons are: 62350
+Classes of Erdos matrices are: 46185
 
 Discounting all equivalences...
 Number of admissible skeletons are: 19989171033

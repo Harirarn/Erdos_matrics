@@ -40,8 +40,8 @@ if __name__ == "__main__":
     print("All 3 reasons:", len([s for s in failure_state.values() if s[0] and s[1] and s[2]]))
 
     print("\nDiscounting the equivalence under transposition...")
-    print("Classes of admissible skeletons are:", sum(p[1]+1 for p in preps.values()))
-    print("Classes of Erdos matrices are:", sum(preps[n][1]+1 for n in erdoses))
+    print("Classes of admissible skeletons are:", sum(2-p[1] for p in preps.values()))
+    print("Classes of Erdos matrices are:", sum(2-preps[n][1] for n in erdoses))
 
     print("\nDiscounting all equivalences...")
     print("Number of admissible skeletons are:", admis:=sum(p[0] for p in preps.values()))
