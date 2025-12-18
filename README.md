@@ -2,11 +2,15 @@ This code is concerned with finding Erdos matrices. Check https://arxiv.org/abs/
 
 # Relavant files
 
+The .py files require `python >=3.10` and `numpy` installed.
 ## config.ini
 - N : The other listed files will work with NxN matrices. Filenames containing {N} below are this value.
 - cores : Files using multiprocessing will use this many cores.
 
 ## reps_multi_flat.py
+```sh
+python3 reps_multi_flat.py
+```
 Outputs: reps{N}.pkl, progress{N}.pkl
 
 This executes step 1 of the algorithm, i.e. finds a list of representative skeleton among all skeletons for the equivalence classes under permutation of rows and columns and under transposition.
@@ -15,6 +19,9 @@ This program is also capable of storing and resuming from partial progress of th
 Dont run this file for N>6.
 
 ## erdos_finder.py
+```sh
+python3 erdos_finder.py
+```
 Requires: reps{N}.pkl
 
 Outputs: erdos{N}.pkl, erdos{N}x{N}.txt
@@ -29,6 +36,9 @@ This program executes rest of the steps in the algorithm. The output is stored i
 The list of erdos matrices are also outputted into the text file erdos{N}x{N}.txt
 
 ## erdos_failure_stats.py
+```sh
+python3 erdos_failure_stats.py
+```
 Requires: erdos{N}.pkl
 
 This program evaluates and prints a bunch of relavant stats.
