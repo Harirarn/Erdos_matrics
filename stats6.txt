@@ -1,0 +1,29 @@
+Out of 32174 classes of admissible skeletons, 23851 are Erdos.
+Ratio: 0.7413
+The reasons for failure of Erdosness of the remaining 8323 are:
+Negative entries: 5450
+Greater outer trace: 5106
+Smaller skeleton: 235
+Negative entries and greater outer trace: 2415
+Negative entries and smaller skeleton: 24
+Greater outer trace and smaller skeleton: 37
+All 3 reasons: 8
+
+Discounting the equivalence under transposition...
+Classes of admissible skeletons are: 34172
+Classes of Erdos matrices are: 25368
+
+Discounting all equivalences...
+Number of admissible skeletons are: 19989171033
+Number of Erdos matrices are: 14180686953
+Ratio: 0.7094
+
+Erdos matrix with largest denominator:
+numerator=
+[[280460 227012 194276 321380 298700 177645]
+ [     0 345696      0 440064 417384 296329]
+ [315989 262541 229805 356909 334229      0]
+ [340200 286752 254016 381120      0 237385]
+ [     0 377472 344736      0 449160 328105]
+ [562824      0 476640      0      0 460009]],
+denominator=1499473, is_erdos=True
