@@ -22,7 +22,7 @@ if __name__ == "__main__":
     N=int(config["DEFAULT"]["N"])
     mat_from_num = erdos_finder.mat_from_numN(N)
 
-    with open(f"erdos{N}.pkl", mode="rb") as f:
+    with open(f"pickles/erdos{N}.pkl", mode="rb") as f:
         reps, preps, resultants, distinction, erdoses = pickle.load(f)
 
     print(f"Out of {len(preps)} classes of admissible skeletons, {len(erdoses)} are Erdos.")
@@ -40,16 +40,16 @@ if __name__ == "__main__":
     print("All 3 reasons:", len([s for s in failure_state.values() if s[0] and s[1] and s[2]]))
 
     print("\nDiscounting the equivalence under transposition...")
-    print("Classes of admissible skeletons are:", sum(2-p[1] for p in preps.values()))
-    print("Classes of Erdos matrices are:", sum(2-preps[n][1] for n in erdoses))
+    print("Classes of admissible skeletons are:", sum(2-reps[n][1] for n in preps))
+    print("Classes of Erdos matrices are:", sum(2-reps[n][1] for n in erdoses))
 
     print("\nDiscounting all equivalences...")
-    print("Number of admissible skeletons are:", admis:=sum(p[0] for p in preps.values()))
-    print("Number of Erdos matrices are:", erdos:=sum(preps[n][0] for n in erdoses))
+    print("Number of admissible skeletons are:", admis:=sum(reps[n][0] for n in preps))
+    print("Number of Erdos matrices are:", erdos:=sum(reps[n][0] for n in erdoses))
     print(f"Ratio: {erdos/admis:.4f}")
 
     print("\nErdos matrix with largest denominator:")
-    maxdenn = max((E.denominator, n) for n,E in erdoses.items())[1]
+    maxdenn = max((E.denominator, n) for n, E in erdoses.items())[1]
     maxdenE = erdoses[maxdenn]
     print(maxdenE)
     

@@ -10,6 +10,7 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 N=int(config["DEFAULT"]["N"])
 cores=int(config["DEFAULT"]["cores"])
+max_time=int(config["reps"]["max_time"])
 
 identity = np.identity(N, dtype=int)
 permutations_lis = [np.array(par) for par in itertools.permutations(np.arange(N))]
@@ -68,10 +69,10 @@ def reps_if_manager(job_queue, return_queue, pool_size = 4, batch_size = 1):
     total = 2**(N*(N-1))
     try: # We check if we had some partial progress done in a previous session.
         #raise FileNotFoundError # Uncomment this line to force fresh execution. Alternatively delete the progress file.
-        with open(f"progress{N}.pkl", "rb") as partial_file:
+        with open(f"pickles/progress{N}.pkl", "rb") as partial_file:
             i, ni, allocated, reps, reps_if = pickle.load(partial_file)
         for n in allocated:
-            job_queue.put(n)
+            job_queue.put((n,))
     except FileNotFoundError:
         i = 0
         ni = 0
@@ -88,7 +89,7 @@ def reps_if_manager(job_queue, return_queue, pool_size = 4, batch_size = 1):
     increment = (2**N-1)*(2**(N-1)-1) 
     max_allocations = batch_size*pool_size+1
     try:
-        while time()-start < 28800: # If you want to keep the computer running for longer per session, increase the number or remove this check.
+        while max_time == 0 or time()-start < max_time: # If you want to keep the computer running for longer per session, increase the number or remove this check.
             # Post a job
             while len(allocated) < max_allocations:
                 if i >= total:
@@ -106,7 +107,12 @@ def reps_if_manager(job_queue, return_queue, pool_size = 4, batch_size = 1):
                 #print(job_queue.qsize(), return_queue.qsize()) #Debug
                 n, ret = return_queue.get(timeout=20)
                 waiting_time += time()-wait
-                if reps_if[n]:
+                force_from_progress = False
+                if type(n) is tuple:
+                    n = n[0]
+                    if n in reps:
+                        force_from_progress = True
+                if force_from_progress or reps_if[n]:
                     reps[n] = (len(ret[0]), ret[1])
                     for eqnum in ret[0]:
                         if eqnum >= 0:
@@ -121,7 +127,7 @@ def reps_if_manager(job_queue, return_queue, pool_size = 4, batch_size = 1):
                 break
     finally:
         print("saving progress.")
-        with open(f"progress{N}.pkl", "wb") as partial_file:
+        with open(f"pickles/progress{N}.pkl", "wb") as partial_file:
             pickle.dump((i, ni, allocated, reps, reps_if), partial_file)
         print("saving complete")
             
@@ -141,7 +147,7 @@ if __name__ == "__main__":
         result = reps_if_manager(job_queue, return_queue, cores)
         reps, done = result
         print(len(reps), done)
-        with open(f"reps{N}.pkl", "wb") as result_file:
+        with open(f"pickles/reps{N}.pkl", "wb") as result_file:
             pickle.dump(reps, result_file)
         for p in range(cores+1):
             job_queue.put(None)

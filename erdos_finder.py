@@ -226,7 +226,7 @@ if __name__ == "__main__":
     N=int(config["DEFAULT"]["N"])
     mat_from_num = mat_from_numN(N)
     num_from_mat = num_from_matN(N)
-    pickle_file = "erdos" + str(N) + ".pkl"
+    pickle_file = f"pickles/erdos{N}.pkl"
     try:
         #raise # Uncomment this raise to force fresh execution.
         with open(pickle_file, mode="rb") as f:
@@ -239,7 +239,7 @@ if __name__ == "__main__":
     if not reps:
         # Loading the class representatives from rep file. Run reps_multi_flat to generate this.
         start = time()
-        with open(f"reps{N}.pkl", "rb") as result_file:
+        with open(f"pickles/reps{N}.pkl", "rb") as result_file:
             reps = pickle.load(result_file)
         print(f"Found {len(reps)} representatives.")
 
@@ -259,16 +259,11 @@ if __name__ == "__main__":
                 resultants[n] = E
                 distinction.append(distinction_stater(n, E))
 
-        erdoses = {}
-        for n, E in resultants.items():
-            mat = mat_from_num(n)
-            if E and E.is_erdos and same_zeros(mat, E.numerator):
-                erdoses[n] = E
-                
+        erdoses = {n:E for n, E in resultants.items() if E and E.is_erdos and same_zeros(mat_from_num(n), E.numerator)}
+        distinction.sort()
 
         print(f"Found {len(erdoses)} Erdos matrices. {time()-start:0.2f} s passed.")
                     
-        distinction.sort()
 
         with open(pickle_file, mode="wb") as f:
             pickle.dump((reps,preps,resultants,distinction,erdoses), f)
