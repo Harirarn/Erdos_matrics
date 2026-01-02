@@ -15,6 +15,12 @@ def outer_maxtrace(E):
 def smaller_skel(n, E):
     return not erdos_finder.same_zeros(mat_from_num(n), E.numerator)
 
+def dims(E):
+    support = erdos_finder.supporting_permutations(E.numerator)
+    gram = erdos_finder.gram_matrix(support)
+    rank = np.linalg.matrix_rank(gram)
+    return rank, len(support)
+
 if __name__ == "__main__":
     import configparser
     config = configparser.ConfigParser()
@@ -38,6 +44,11 @@ if __name__ == "__main__":
     print("Negative entries and smaller skeleton:", len([s for s in failure_state.values() if s[0] and s[2]]))
     print("Greater outer trace and smaller skeleton:", len([s for s in failure_state.values() if s[1] and s[2]]))
     print("All 3 reasons:", len([s for s in failure_state.values() if s[0] and s[1] and s[2]]))
+
+    dims_calc = {n:dims(E) for n, E in resultants.items()}
+    simplices = [n for n, d in dims_calc.items() if d[0] == d[1]]
+    simplex_erdoses = [n for n in simplices if n in erdoses]
+    print(f"\nThere are {len(simplices)} simplices out of which {len(simplex_erdoses)} are erdos")
 
     print("\nDiscounting the equivalence under transposition...")
     print("Classes of admissible skeletons are:", sum(2-reps[n][1] for n in preps))

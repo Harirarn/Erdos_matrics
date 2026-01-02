@@ -9,6 +9,8 @@ Negative entries and smaller skeleton: 2
 Greater outer trace and smaller skeleton: 0
 All 3 reasons: 0
 
+There are 83 simplices out of which 50 are erdos
+
 Discounting the equivalence under transposition...
 Classes of admissible skeletons are: 894
 Classes of Erdos matrices are: 791

@@ -1,3 +1,6 @@
+2026-01-02:
+- erdos_failure_stats.py: Added some stats on simplices.
+
 2025-12-20:
 - Moved all pickle files to pickles/ folder.
 - Added [reps]maxt_time in config.ini
