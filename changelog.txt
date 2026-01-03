@@ -1,7 +1,10 @@
+2026-01-03:
+- Added sample_proportion.py. This file uses a random sample of [Marco-Polo]sample_size binary matrices and finds out how many of them are admissible skeletons and then how many of those admit an Erdos matrix.
+
 2026-01-02:
 - erdos_failure_stats.py: Added some stats on simplices.
 
 2025-12-20:
 - Moved all pickle files to pickles/ folder.
-- Added [reps]maxt_time in config.ini
+- Added [reps]max_time in config.ini
 - Increased safeguards to KeyboardInterrupt -ing execution of reps_multi_flat.py during execution. This has however never occurred.
