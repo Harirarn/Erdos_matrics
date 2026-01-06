@@ -1,3 +1,7 @@
+2026-01-06:
+- Implemented the Brualdi and Dahl algorithm for finding RCDS matrices corresponding to a skeleton. erdosify_bd function in erdos_finder.py does this.
+- The config method controls which algorithm to use kt or bd (i.e. Kushwaha-Tripathi or Brualdi Dahl).
+
 2026-01-03:
 - Added sample_proportion.py. This file uses a random sample of [Marco-Polo]sample_size binary matrices and finds out how many of them are admissible skeletons and then how many of those admit an Erdos matrix.
 

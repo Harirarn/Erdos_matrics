@@ -115,7 +115,79 @@ def erdosify_from_mat(mat):
     """ Similare to erdosify, but takes a skeleton as its input"""
     support_perms = supporting_permutations(mat)
     return erdosify_from_support(support_perms)
-        
+
+def erdosify_bd(mat):
+    """ Similar to erdosify_from_mat, but uses the Brualdi Dahl algorithm.
+The input should be admissible."""
+    N = len(mat)
+    row_eqix, col_eqix = decomposable_units(mat)
+    sub_mats = []
+    row_ix = []
+    col_ix = []
+    sub_erds = []
+    for i in range(max(row_eqix)+1):
+        row_ix.append(np.nonzero(row_eqix == i)[0])
+        col_ix.append(np.nonzero(col_eqix == i)[0])
+        sub_mats.append(mat[np.ix_(row_ix[i], col_ix[i])])
+        sub_erds.append(erdosify_bd_indecomposable(sub_mats[i]))
+    dens = np.array([E.denominator for E in sub_erds], dtype = np.int64)
+    denominator = np.lcm.reduce(dens)
+    numerator = np.zeros((N, N), dtype = np.int64)
+    row_factor = np.zeros(N, dtype = np.int64)
+    col_factor = np.zeros(N, dtype = np.int64)
+    for i in range(max(row_eqix)+1):
+        E = sub_erds[i]
+        mult = denominator // E.denominator
+        numerator[np.ix_(row_ix[i], col_ix[i])] = E.numerator * mult
+        row_factor[np.ix_(row_ix[i])] = E.solution[0]*mult
+        col_factor[np.ix_(col_ix[i])] = E.solution[1]*mult
+    return fracMatrix(numerator, denominator, None, (row_factor, col_factor))
+
+def decomposable_units(mat):
+    """ Returns the block number for the row indices and column indices."""
+    N = len(mat)
+    row_eqix = np.arange(N)
+    col_eqix = np.arange(N, 2*N)
+    for i, j in itertools.product(range(N), repeat=2):
+        if mat[i, j] != 0 and row_eqix[i] != col_eqix[j]:
+            minix, maxix = min(row_eqix[i], col_eqix[j]), max(row_eqix[i], col_eqix[j])
+            for k in range(N):
+                if row_eqix[k] == maxix: row_eqix[k] = minix
+                if col_eqix[k] == maxix: col_eqix[k] = minix
+    assert set(row_eqix) == set(col_eqix)
+    reduction_map = {r:i for i, r in enumerate(set(row_eqix))}
+    for k in range(N):
+        row_eqix[k] = reduction_map[row_eqix[k]]
+        col_eqix[k] = reduction_map[col_eqix[k]]
+    return row_eqix, col_eqix
+
+def erdosify_bd_indecomposable(mat):
+    """ Only pass indecomposable admissible skeletons to this function."""
+    N = len(mat)
+    amat = np.zeros((2*N, 2*N), dtype=np.int64)
+    for i in range(N):
+        for j in range(N):
+            amat[i, N+j] = amat[N+j, i] = mat[i, j]
+    for i in range(2*N):
+        amat[i, i] = np.sum(amat[i])
+    #print(np.linalg.matrix_rank(amat))
+    #print(amat)
+    amat = amat[1:, 1:]
+    sol = np.linalg.solve(amat, np.ones(len(amat)))
+    det = np.linalg.det(amat)
+    sol = np.array(det*sol + 0.01 - 0.02 * (sol<0), dtype = np.int64)
+    row_cof = np.zeros(N, dtype = np.int64)
+    row_cof[1:] = sol[:N-1]
+    col_cof = sol[N-1:]
+    numer = np.zeros((N, N), dtype = np.int64)
+    for i, j in itertools.product(range(N), repeat=2):
+        if mat[i, j]:
+            numer[i, j] = row_cof[i] + col_cof[j]
+    gcd = np.gcd.reduce(numer.flat)
+    numer //= gcd
+    denom = int(np.sum(numer[0]))
+    return fracMatrix(numer, denom, min(row_cof) + min(col_cof) >= 0, (row_cof//gcd,col_cof//gcd))    
+
 def perm_format(perm):
     """ Returns the cycle notation of a permutation. 0 is still the first index."""
     remaining = list(range(len(perm)-1, -1, -1))
@@ -224,6 +296,7 @@ if __name__ == "__main__":
     config = configparser.ConfigParser()
     config.read("config.ini")
     N=int(config["DEFAULT"]["N"])
+    method = config["DEFAULT"]["method"]
     mat_from_num = mat_from_numN(N)
     num_from_mat = num_from_matN(N)
     pickle_file = f"pickles/erdos{N}.pkl"
@@ -249,15 +322,17 @@ if __name__ == "__main__":
 
         for n in preps:
             mat = mat_from_num(n)
-            support_perms = supporting_permutations(mat, permutations_lis(N))
-
-            if support_perms:
-                # Calculating the simple average of all permutations in support. In some cases this is Erdos.
-                E = simple_average(support_perms)
-                if not E.is_erdos: # Running the algorithm when simple average is not good enough
-                    E = erdosify_from_support(support_perms)
-                resultants[n] = E
-                distinction.append(distinction_stater(n, E))
+            if method == "kt":
+                support_perms = supporting_permutations(mat, permutations_lis(N))
+                if support_perms:
+                    # Calculating the simple average of all permutations in support. In some cases this is Erdos.
+                    E = simple_average(support_perms)
+                    if not E.is_erdos: # Running the algorithm when simple average is not good enough
+                        E = erdosify_from_support(support_perms)
+            elif method == "bd":
+                E = erdosify_bd(mat)
+            resultants[n] = E
+            distinction.append(distinction_stater(n, E))
 
         erdoses = {n:E for n, E in resultants.items() if E and E.is_erdos and same_zeros(mat_from_num(n), E.numerator)}
         distinction.sort()
@@ -267,6 +342,7 @@ if __name__ == "__main__":
 
         with open(pickle_file, mode="wb") as f:
             pickle.dump((reps,preps,resultants,distinction,erdoses), f)
+
 
     # Creating a .txt file with erdos matrices.
     with open(f"erdos{N}x{N}.txt", "w") as f:

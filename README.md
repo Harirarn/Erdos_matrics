@@ -6,6 +6,7 @@ The .py files require `python >=3.10` and `numpy` installed.
 ## config.ini
 - N : The other listed files will work with NxN matrices. Filenames containing {N} below are this value.
 - cores : Files using multiprocessing will use this many cores.
+- method = kt|bd : Whether to use the algorithm inspired by Kushwaha-Tripathi or Brualdi-Dahl.
 - max_time : The amount of time in seconds for which reps_multi_flat.py will run per session. Set this to 0 to remove this limit.
 
 ## reps_multi_flat.py
@@ -33,6 +34,8 @@ This program executes rest of the steps in the algorithm. The output is stored i
 - resultants: this is a dict with keys from preps (indices of admissible skeletons) and values now representing the final result of the algorithm (whether erdos or not).
 - erdoses: this is a sub-dict of resultants with indices only when the matrix is erdos.
 - distinction: this is a list of tuples (one for each entry in resultants) as ('number of distinct entries', 'number of zeros', 'index'). This also gets sorted in increasing order.
+
+The exact algorithm to use can be set by the config option "method" which can be kt or bd.
 If you wish to unpickle this file, add the following line to ensure relevant dataclass are defined in that scope:
 ```python
 from erdos_finder import fracMatrix, linearCombination

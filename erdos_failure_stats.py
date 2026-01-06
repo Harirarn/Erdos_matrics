@@ -26,6 +26,7 @@ if __name__ == "__main__":
     config = configparser.ConfigParser()
     config.read("config.ini")
     N=int(config["DEFAULT"]["N"])
+    method = config["DEFAULT"]["method"]
     mat_from_num = erdos_finder.mat_from_numN(N)
 
     with open(f"pickles/erdos{N}.pkl", mode="rb") as f:
